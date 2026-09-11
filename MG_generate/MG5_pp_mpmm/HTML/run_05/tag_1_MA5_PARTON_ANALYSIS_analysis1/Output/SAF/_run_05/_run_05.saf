@@ -1,0 +1,19 @@
+<SAFheader>
+</SAFheader>
+
+<SampleGlobalInfo>
+# xsection     xsection_error nevents        sum_weight+    sum_weight-    
+8.444500e+02   2.108380e+00   10000          8.444500e+06   0.000000e+00   
+</SampleGlobalInfo>
+
+<FileInfo>
+"/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/MG5_pp_mpmm/Events/run_05/unweighted_events.lhe.gz" # file 1 / 1
+</FileInfo>
+
+<SampleDetailedInfo>
+# xsection     xsection_error nevents        sum_weight+    sum_weight-    
+8.444500e+02   2.108380e+00   10000          8.444500e+06   0.000000e+00    # file 1 / 1
+</SampleDetailedInfo>
+
+<SAFfooter>
+</SAFfooter>

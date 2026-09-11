@@ -1,0 +1,19 @@
+<SAFheader>
+</SAFheader>
+
+<SampleGlobalInfo>
+# xsection     xsection_error nevents        sum_weight+    sum_weight-    
+8.422000e+02   0.000000e+00   100000         7.042546e+07   0.000000e+00   
+</SampleGlobalInfo>
+
+<FileInfo>
+"/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/MG5_pp_mpmm/Events/run_02/tag_1_pythia8_events.hepmc.gz" # file 1 / 1
+</FileInfo>
+
+<SampleDetailedInfo>
+# xsection     xsection_error nevents        sum_weight+    sum_weight-    
+8.422000e+02   0.000000e+00   100000         7.042546e+07   0.000000e+00    # file 1 / 1
+</SampleDetailedInfo>
+
+<SAFfooter>
+</SAFfooter>

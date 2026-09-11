@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
+
+<head>
+  <title>MadAnalysis 5 HTML report</title>
+  <link rel='stylesheet' media='screen' type='text/css' title='style' href='style.css' />
+<meta http-equiv='Content-Type' content='text/html;charset=utf-8'/>
+</head>
+
+<body>
+<div id='top' class='top'>
+  <table>
+    <tr>
+      <td width='35%'>
+        <img style='width: 182px; height: 53px;' alt='ma5-logo' src='logo.png' /><br />
+        <a href='http://madanalysis.irmp.ucl.ac.be'>Please visit us.</a>
+      </td>
+      <td width='65%'>
+        <h1>MadAnalysis 5 report</h1><br />
+        <i>Created by <font color='#0000CC'>karna</font> on  <font color='#0000CC'>17 August 2026, 19:13:53</font></i>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div id='menu' class= 'menu'>
+  <br />
+  <h3>Setup</h3>
+  <ul>
+    <li><a href='#Commandhistory'>Command history</a></li>
+    <li><a href='#Configuration'>Configuration</a></li>
+  </ul>
+  <h3>Datasets</h3>
+  <ul>
+    <li><a href='#reco_events'>reco_events</a></li>
+  </ul>
+</div>
+
+<div id='main' class='main'>
+  <br /><br />
+
+  <h2>Setup</h2><br />
+  <h3><a name='Commandhistory'>Command history</a></h3><br />
+  <tt>ma5>define invisible = 16 -14 -16 12 14 -12</tt><br />
+  <tt>ma5>set main.fastsim.package = fastjet</tt><br />
+  <tt>ma5>set main.fastsim.algorithm = antikt</tt><br />
+  <tt>ma5>set main.fastsim.radius = 0.4</tt><br />
+  <tt>ma5>set main.fastsim.ptmin = 5.0</tt><br />
+  <tt>ma5>set main.fastsim.bjet_id.matching_dr = 0.4</tt><br />
+  <tt>ma5>set main.fastsim.bjet_id.efficiency = 1.0</tt><br />
+  <tt>ma5>set main.fastsim.bjet_id.misid_cjet = 0.0</tt><br />
+  <tt>ma5>set main.fastsim.bjet_id.misid_ljet = 0.0</tt><br />
+  <tt>ma5>set main.fastsim.tau_id.efficiency = 1.0</tt><br />
+  <tt>ma5>set main.fastsim.tau_id.misid_ljet = 0.0</tt><br />
+  <tt>ma5>import /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/MG5_pp_mpmm/Events/run_05/tag_1_pythia8_events.hepmc.gz as reco_events</tt><br />
+  <tt>ma5>set main.outputfile=tag_1_pythia8_BasicReco.lhe.gz</tt><br />
+  <tt>ma5>submit /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/MG5_pp_mpmm/MA5_HADRON_ANALYSIS_reco_BasicReco_1</tt><br />
+  <br />
+  <h3><a name='Configuration'>Configuration</a></h3>
+  <ul>
+    <li>
+      MadAnalysis version 1.11.0 (2026-08-07).<br />
+    </li>
+    <li>
+      Histograms are not scaled.<br />
+    </li>
+  </ul>
+  <br /><br />
+
+  <h2>Datasets</h2><br />
+  <h3><a name='reco_events'>reco_events</a></h3>
+  <ul>
+    <li>
+      Sample consisting of: <font color='#0000CC'>signal</font> events.<br />
+    </li>
+    <li>
+      Generated events: <font color='#0000CC'>10000 </font> events.<br />
+    </li>
+    <li>
+      Normalization to the luminosity: <font color='#0000CC'>8444500</font><font color='#0000CC'> +/- </font><font color='#0000CC'>0 </font> events.<br />
+    </li>
+    <li>
+      <font color='#FF0000'>Ratio (event weight): </font><font color='#FF0000'>844 </font><font color='#FF0000'> - warning: please generate more events (weight larger than 1)!</font><br />
+    </li>
+  </ul>
+  <table>
+    <tr>
+      <td width='39.0%' bgcolor='#FFFF00'>
+        Path to the event file  <br />
+      </td> 
+      <td width='18.0%' bgcolor='#FFFF00'>
+        Nr. of events  <br />
+      </td> 
+      <td width='21.0%' bgcolor='#FFFF00'>
+        Cross section (pb)  <br />
+      </td> 
+      <td width='21.0%' bgcolor='#FFFF00'>
+        Negative wgts (%)  <br />
+      </td>
+    </tr>
+    <tr>
+      <td width='39.0%' bgcolor='#FFFFFF'>
+        MG5_pp_mpmm/Events/run_05/tag_1_pythia8_events.hepmc.gz  <br />
+      </td> 
+      <td width='18.0%' bgcolor='#FFFFFF'>
+        10000  <br />
+      </td> 
+      <td width='21.0%' bgcolor='#FFFFFF'>
+        844  <br />
+      </td> 
+      <td width='21.0%' bgcolor='#FFFFFF'>
+        0.0  <br />
+      </td>
+    </tr>
+  </table><br /> <br />
+  <br /><hr size='4' width='350' />
+</div>
+</body>
+</html>
