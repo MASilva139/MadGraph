@@ -1,0 +1,12 @@
+prefix=/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/lhapdf6_py3
+exec_prefix=${prefix}
+libdir=/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/lhapdf6_py3//lib
+includedir=${prefix}/include
+datarootdir=${prefix}/share
+
+Name: lhapdf
+Description: LHAPDF parton density library
+URL: https://lhapdf.hepforge.org
+Version: 6.5.5
+Libs: -L/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/lhapdf6_py3//lib -lLHAPDF
+Cflags: -I${prefix}/include

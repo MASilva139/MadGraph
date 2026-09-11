@@ -1,0 +1,341 @@
+ Set environment variables
+ Unpack LHAPDF5
+lhapdf-5.9.1/
+lhapdf-5.9.1/config/
+lhapdf-5.9.1/config/config.h.in
+lhapdf-5.9.1/config/config.guess
+lhapdf-5.9.1/config/config.sub
+lhapdf-5.9.1/config/depcomp
+lhapdf-5.9.1/config/install-sh
+lhapdf-5.9.1/config/ltmain.sh
+lhapdf-5.9.1/config/missing
+lhapdf-5.9.1/config/py-compile
+lhapdf-5.9.1/m4/
+lhapdf-5.9.1/m4/binreloc.m4
+lhapdf-5.9.1/m4/compilerflags.m4
+lhapdf-5.9.1/m4/libtool.m4
+lhapdf-5.9.1/m4/ltoptions.m4
+lhapdf-5.9.1/m4/ltsugar.m4
+lhapdf-5.9.1/m4/ltversion.m4
+lhapdf-5.9.1/m4/lt~obsolete.m4
+lhapdf-5.9.1/m4/python.m4
+lhapdf-5.9.1/README
+lhapdf-5.9.1/configure.ac
+lhapdf-5.9.1/aclocal.m4
+lhapdf-5.9.1/PDFsets.index
+lhapdf-5.9.1/Makefile.am
+lhapdf-5.9.1/Makefile.in
+lhapdf-5.9.1/configure
+lhapdf-5.9.1/AUTHORS
+lhapdf-5.9.1/COPYING
+lhapdf-5.9.1/ChangeLog
+lhapdf-5.9.1/INSTALL
+lhapdf-5.9.1/NEWS
+lhapdf-5.9.1/TODO
+lhapdf-5.9.1/src/
+lhapdf-5.9.1/src/Makefile.am
+lhapdf-5.9.1/src/Makefile.in
+lhapdf-5.9.1/src/parmsetup.inc.in
+lhapdf-5.9.1/src/commoninit.f
+lhapdf-5.9.1/src/version.cc
+lhapdf-5.9.1/src/LHpdflib.F
+lhapdf-5.9.1/src/description.f
+lhapdf-5.9.1/src/evolution.f
+lhapdf-5.9.1/src/parameter.F
+lhapdf-5.9.1/src/QCDparams.f
+lhapdf-5.9.1/src/alphas.f
+lhapdf-5.9.1/src/inputPDF.F
+lhapdf-5.9.1/src/wrapEVLCTEQ.f
+lhapdf-5.9.1/src/EVLCTEQ.f
+lhapdf-5.9.1/src/wrapevolve.F
+lhapdf-5.9.1/src/Sqcdnum.f
+lhapdf-5.9.1/src/Szeus.f
+lhapdf-5.9.1/src/uncertainties.f
+lhapdf-5.9.1/src/eks98.f
+lhapdf-5.9.1/src/eksarp.f
+lhapdf-5.9.1/src/eps08.f
+lhapdf-5.9.1/src/eps09.f
+lhapdf-5.9.1/src/getdatapath.cc
+lhapdf-5.9.1/src/binreloc.c
+lhapdf-5.9.1/src/lhaglue.f
+lhapdf-5.9.1/src/QCDNUM.F
+lhapdf-5.9.1/src/wrapQCDNUM.F
+lhapdf-5.9.1/src/wrapQCDNUM3.f
+lhapdf-5.9.1/src/wrapQCDNUM4.f
+lhapdf-5.9.1/src/wrapowpi.f
+lhapdf-5.9.1/src/wrapsmrspi.f
+lhapdf-5.9.1/src/wrapgrvpi.f
+lhapdf-5.9.1/src/wrapabfkwpi.f
+lhapdf-5.9.1/src/wrapsasg.f
+lhapdf-5.9.1/src/wrapgrvg.f
+lhapdf-5.9.1/src/wrapdog.f
+lhapdf-5.9.1/src/wrapdgg.f
+lhapdf-5.9.1/src/wraplacg.f
+lhapdf-5.9.1/src/wrapgsg.f
+lhapdf-5.9.1/src/wrapgsg96.f
+lhapdf-5.9.1/src/wrapacfgpg.f
+lhapdf-5.9.1/src/wrapwhitg.f
+lhapdf-5.9.1/src/wrapUSER.f
+lhapdf-5.9.1/src/wrapusergrid.f
+lhapdf-5.9.1/src/Smrst-lite.f
+lhapdf-5.9.1/src/wrapmrst-lite.f
+lhapdf-5.9.1/src/wrapmrst2006-lite.f
+lhapdf-5.9.1/src/wrapmrst98.f
+lhapdf-5.9.1/src/wrapmrstqed-lite.f
+lhapdf-5.9.1/src/wrapcteq5.f
+lhapdf-5.9.1/src/wrapcteq65-lite.f
+lhapdf-5.9.1/src/wrapcteq6-lite.f
+lhapdf-5.9.1/src/wrapcteq6lg.f
+lhapdf-5.9.1/src/wrapct12.f
+lhapdf-5.9.1/src/wrapgrv.f
+lhapdf-5.9.1/src/wrapNNPDF.f
+lhapdf-5.9.1/src/wrapNNPDFgrid-lite.f
+lhapdf-5.9.1/src/wrapNNPDF20grid-lite.f
+lhapdf-5.9.1/src/wrapNNPDF20qedgrid-lite.f
+lhapdf-5.9.1/src/EVLNNPDF.f
+lhapdf-5.9.1/src/wrapXNN.f
+lhapdf-5.9.1/src/wrapmstw-lite.f
+lhapdf-5.9.1/src/wrapgjr-lite.f
+lhapdf-5.9.1/src/wraph1-lite.f
+lhapdf-5.9.1/src/wrapzeus.f
+lhapdf-5.9.1/src/wraphera.f
+lhapdf-5.9.1/src/wrapheragrid-lite.f
+lhapdf-5.9.1/src/wrapa02m-lite.f
+lhapdf-5.9.1/src/wrapabkm09-lite.f
+lhapdf-5.9.1/src/wrapabm11-lite.f
+lhapdf-5.9.1/src/wraphkn-lite.f
+lhapdf-5.9.1/src/Smrst.f
+lhapdf-5.9.1/src/wrapmrst.f
+lhapdf-5.9.1/src/wrapmrst2006.f
+lhapdf-5.9.1/src/wrapmrstqed.f
+lhapdf-5.9.1/src/wrapcteq65.f
+lhapdf-5.9.1/src/wrapcteq6.f
+lhapdf-5.9.1/src/wrapNNPDFgrid.f
+lhapdf-5.9.1/src/wrapNNPDF20grid.f
+lhapdf-5.9.1/src/wrapNNPDF20qedgrid.f
+lhapdf-5.9.1/src/wrapmstw.f
+lhapdf-5.9.1/src/wrapgjr.f
+lhapdf-5.9.1/src/wraph1.f
+lhapdf-5.9.1/src/wrapheragrid.f
+lhapdf-5.9.1/src/wrapa02m.f
+lhapdf-5.9.1/src/wrapabkm09.f
+lhapdf-5.9.1/src/wrapabm11.f
+lhapdf-5.9.1/src/wraphkn.f
+lhapdf-5.9.1/src/parmsetup.inc
+lhapdf-5.9.1/src/binreloc.h
+lhapdf-5.9.1/src/common.inc
+lhapdf-5.9.1/src/commonlhacontrol.inc
+lhapdf-5.9.1/src/commonlhaglsta.inc
+lhapdf-5.9.1/src/commonlhapdfc.inc
+lhapdf-5.9.1/src/commonlhapdf.inc
+lhapdf-5.9.1/src/commonlhasets.inc
+lhapdf-5.9.1/include/
+lhapdf-5.9.1/include/Makefile.am
+lhapdf-5.9.1/include/Makefile.in
+lhapdf-5.9.1/include/LHAPDF/
+lhapdf-5.9.1/include/LHAPDF/LHAPDF.h
+lhapdf-5.9.1/include/LHAPDF/LHAPDFfw.h
+lhapdf-5.9.1/include/LHAPDF/LHAPDFWrap.h
+lhapdf-5.9.1/include/LHAPDF/FortranWrappers.h.in
+lhapdf-5.9.1/include/LHAPDF/LHAPDFConfig.h.in
+lhapdf-5.9.1/include/LHAPDF/Makefile.am
+lhapdf-5.9.1/include/LHAPDF/Makefile.in
+lhapdf-5.9.1/ccwrap/
+lhapdf-5.9.1/ccwrap/README
+lhapdf-5.9.1/ccwrap/Makefile.am
+lhapdf-5.9.1/ccwrap/Makefile.in
+lhapdf-5.9.1/ccwrap/LHAPDFfw.f
+lhapdf-5.9.1/ccwrap/LHAPDF.cc
+lhapdf-5.9.1/ccwrap/LHAPDFWrap.cc
+lhapdf-5.9.1/ccwrap/Doxyfile
+lhapdf-5.9.1/lib/
+lhapdf-5.9.1/lib/Makefile.am
+lhapdf-5.9.1/lib/Makefile.in
+lhapdf-5.9.1/examples/
+lhapdf-5.9.1/examples/Makefile.am
+lhapdf-5.9.1/examples/Makefile.in
+lhapdf-5.9.1/examples/CCTest1.cc
+lhapdf-5.9.1/examples/CCTest2.cc
+lhapdf-5.9.1/examples/CCTest3.cc
+lhapdf-5.9.1/examples/CCTest4.cc
+lhapdf-5.9.1/examples/CCTest5.cc
+lhapdf-5.9.1/examples/Example1.f
+lhapdf-5.9.1/examples/Example10.f
+lhapdf-5.9.1/examples/Example2.f
+lhapdf-5.9.1/examples/Example3.f
+lhapdf-5.9.1/examples/Example4.f
+lhapdf-5.9.1/examples/Example5.f
+lhapdf-5.9.1/examples/Example6.f
+lhapdf-5.9.1/examples/Example7.f
+lhapdf-5.9.1/examples/Example8.f
+lhapdf-5.9.1/examples/Example9.f
+lhapdf-5.9.1/examples/pdf-plot.py
+lhapdf-5.9.1/examples/pdf-ratio-plot.py
+lhapdf-5.9.1/pyext/
+lhapdf-5.9.1/pyext/Makefile.am
+lhapdf-5.9.1/pyext/Makefile.in
+lhapdf-5.9.1/pyext/setup.py.in
+lhapdf-5.9.1/pyext/lhapdf.i
+lhapdf-5.9.1/pyext/lhapdf_wrap.cc
+lhapdf-5.9.1/pyext/lhapdf.py
+lhapdf-5.9.1/octave/
+lhapdf-5.9.1/octave/Makefile.am
+lhapdf-5.9.1/octave/Makefile.in
+lhapdf-5.9.1/octave/lhapdf-octave-example1.m
+lhapdf-5.9.1/octave/wrapoctave.cc
+lhapdf-5.9.1/bin/
+lhapdf-5.9.1/bin/Makefile.am
+lhapdf-5.9.1/bin/Makefile.in
+lhapdf-5.9.1/bin/lhapdf-config.in
+lhapdf-5.9.1/bin/lhapdf-getdata
+lhapdf-5.9.1/bin/lhapdf-query
+lhapdf-5.9.1/tests/
+lhapdf-5.9.1/tests/lhapdf-regdump
+lhapdf-5.9.1/tests/lhapdf-regtest
+lhapdf-5.9.1/tests/Makefile.am
+lhapdf-5.9.1/tests/Makefile.in
+lhapdf-5.9.1/tests/lhapdf-ccregdump.cc
+ Enter LHAPDF directory
+ Configure LHAPDF5
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking for x86_64-conda-linux-gnu-sw_vers... no
+checking for sw_vers... no
+checking for x86_64-conda-linux-gnu-gfortran... gfortran
+checking for Fortran compiler default output file name... a.out
+checking whether the Fortran compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU Fortran compiler... yes
+checking whether gfortran accepts -g... yes
+checking how to get verbose linking output from gfortran... -v
+checking for Fortran libraries of gfortran...  -L/home/karna/anaconda3/envs/MG5/lib -L/home/karna/anaconda3/envs/MG5/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0 -L/home/karna/anaconda3/envs/MG5/bin/../lib/gcc -L/home/karna/anaconda3/envs/MG5/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/karna/anaconda3/envs/MG5/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/../../../../lib -L/home/karna/anaconda3/envs/MG5/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/karna/anaconda3/envs/MG5/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L. -L/home/karna/anaconda3/envs/MG5/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/karna/anaconda3/envs/MG5/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/../../.. -L/home/karna/anaconda3/envs/MG5/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/karna/anaconda3/envs/MG5/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -lgfortran -lm -lquadmath
+checking for style of include used by make... GNU
+checking for x86_64-conda-linux-gnu-gcc... /home/karna/anaconda3/envs/MG5/bin/x86_64-conda-linux-gnu-cc
+checking whether we are using the GNU C compiler... yes
+checking whether /home/karna/anaconda3/envs/MG5/bin/x86_64-conda-linux-gnu-cc accepts -g... yes
+checking for /home/karna/anaconda3/envs/MG5/bin/x86_64-conda-linux-gnu-cc option to accept ISO C89... none needed
+checking dependency style of /home/karna/anaconda3/envs/MG5/bin/x86_64-conda-linux-gnu-cc... gcc3
+checking for dummy main to link with Fortran libraries... none
+checking for Fortran name-mangling scheme... lower case, underscore, no extra underscore
+checking for Fortran flag needed to allow free-form source... -ffree-form
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking for x86_64-conda-linux-gnu-gcc... (cached) /home/karna/anaconda3/envs/MG5/bin/x86_64-conda-linux-gnu-cc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether /home/karna/anaconda3/envs/MG5/bin/x86_64-conda-linux-gnu-cc accepts -g... (cached) yes
+checking for /home/karna/anaconda3/envs/MG5/bin/x86_64-conda-linux-gnu-cc option to accept ISO C89... (cached) none needed
+checking dependency style of /home/karna/anaconda3/envs/MG5/bin/x86_64-conda-linux-gnu-cc... (cached) gcc3
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether ln -s works... yes
+checking for /proc/self/maps... yes
+checking whether everything is installed to the same prefix... no
+checking whether binary relocation support should be enabled... no
+checking build system type... x86_64-conda-linux-gnu
+checking host system type... x86_64-conda-linux-gnu
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by /home/karna/anaconda3/envs/MG5/bin/x86_64-conda-linux-gnu-cc... x86_64-conda-linux-gnu-ld
+checking if the linker (x86_64-conda-linux-gnu-ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... x86_64-conda-linux-gnu-nm
+checking the name lister (x86_64-conda-linux-gnu-nm) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for x86_64-conda-linux-gnu-ld option to reload object files... -r
+checking for x86_64-conda-linux-gnu-objdump... x86_64-conda-linux-gnu-objdump
+checking how to recognize dependent libraries... pass_all
+checking for x86_64-conda-linux-gnu-ar... x86_64-conda-linux-gnu-ar
+checking for x86_64-conda-linux-gnu-strip... x86_64-conda-linux-gnu-strip
+checking for x86_64-conda-linux-gnu-ranlib... x86_64-conda-linux-gnu-ranlib
+checking command to parse x86_64-conda-linux-gnu-nm output from /home/karna/anaconda3/envs/MG5/bin/x86_64-conda-linux-gnu-cc object... ok
+checking how to run the C preprocessor... /home/karna/anaconda3/envs/MG5/bin/x86_64-conda-linux-gnu-cpp
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether g++ accepts -g... (cached) yes
+checking dependency style of g++... (cached) gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for x86_64-conda-linux-gnu-gfortran... (cached) gfortran
+checking whether we are using the GNU Fortran compiler... (cached) yes
+checking whether gfortran accepts -g... (cached) yes
+checking for objdir... .libs
+checking if /home/karna/anaconda3/envs/MG5/bin/x86_64-conda-linux-gnu-cc supports -fno-rtti -fno-exceptions... no
+checking for /home/karna/anaconda3/envs/MG5/bin/x86_64-conda-linux-gnu-cc option to produce PIC... -fPIC -DPIC
+checking if /home/karna/anaconda3/envs/MG5/bin/x86_64-conda-linux-gnu-cc PIC flag -fPIC -DPIC works... yes
+checking if /home/karna/anaconda3/envs/MG5/bin/x86_64-conda-linux-gnu-cc static flag -static works... yes
+checking if /home/karna/anaconda3/envs/MG5/bin/x86_64-conda-linux-gnu-cc supports -c -o file.o... yes
+checking if /home/karna/anaconda3/envs/MG5/bin/x86_64-conda-linux-gnu-cc supports -c -o file.o... (cached) yes
+checking whether the /home/karna/anaconda3/envs/MG5/bin/x86_64-conda-linux-gnu-cc linker (x86_64-conda-linux-gnu-ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for shl_load... no
+checking for shl_load in -ldld... no
+checking for dlopen... no
+checking for dlopen in -ldl... yes
+checking whether a program can dlopen itself... yes
+checking whether a statically linked program can dlopen itself... no
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for ld used by g++... x86_64-conda-linux-gnu-ld -m elf_x86_64
+checking if the linker (x86_64-conda-linux-gnu-ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (x86_64-conda-linux-gnu-ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (x86_64-conda-linux-gnu-ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for gfortran option to produce PIC... -fPIC
+checking if gfortran PIC flag -fPIC works... yes
+checking if gfortran static flag -static works... yes
+checking if gfortran supports -c -o file.o... yes
+checking if gfortran supports -c -o file.o... (cached) yes
+checking whether the gfortran linker (x86_64-conda-linux-gnu-ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for pdf sets to include... all
+configure: Number of concurrent PDF set arrays allocated = 3
+configure: Building LHAGLUE wrappers
+configure: Building C++ wrapper
+configure: Not building deprecated C++ wrapper library... good for you.
+checking for doxygen... no
+checking for python... /home/karna/anaconda3/envs/MG5/bin/python
+checking whether /home/karna/anaconda3/envs/MG5/bin/python version >= 2.3... Traceback (most recent call last):
+  File "/tmp/tmpf8oo39u4/lhapdf-5.9.1/conftest.py", line 5, in <module>
+    minver = map(int, string.split('2.3', '.')) + [0, 0, 0]
+AttributeError: module 'string' has no attribute 'split'
+configure: error: too old
+ Compile LHAPDF5
+make: *** No se especificó ningún objetivo y no se encontró ningún makefile.  Alto.
+ Install LHAPDF5
+make: *** No hay ninguna regla para construir el objetivo 'install'.  Alto.
+copy index and conf file
+cp: falta el operando archivo de destino después de '/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/lhapdf5//share/LHAPDF/'
+Pruebe 'cp --help' para más información.
+ Finished LHAPDF5 installation

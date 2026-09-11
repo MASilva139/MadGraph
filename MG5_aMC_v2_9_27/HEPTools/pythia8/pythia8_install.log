@@ -1,0 +1,279 @@
+ Set environment variables
+environment set
+ >> Unpack PYTHIA8
+ >> Enter PYTHIA8 directory
+ >> Configure PYTHIA8
+cd plugins/python && make clean
+make[1]: se entra en el directorio '/tmp/tmpb37grked/pythia8317/plugins/python'
+rm -rf tmp ../../lib/pythia8.so
+make[1]: se sale del directorio '/tmp/tmpb37grked/pythia8317/plugins/python'
+cd plugins/mg5mes && make clean
+make[1]: se entra en el directorio '/tmp/tmpb37grked/pythia8317/plugins/mg5mes'
+rm -rf tmp ../../lib/libpythia8mg5decays_ew_sm-ckm.so ../../lib/libpythia8mg5decays_higgs_heft-ckm.so ../../lib/libpythia8mg5decays_top_sm-ckm.so ../../lib/libpythia8mg5procs_dis_sm-ckm.so ../../lib/libpythia8mg5procs_ew_sm-ckm.so ../../lib/libpythia8mg5procs_higgs_heft-ckm.so ../../lib/libpythia8mg5procs_qcd_sm.so ../../lib/libpythia8mg5procs_top_sm.so
+make[1]: se sale del directorio '/tmp/tmpb37grked/pythia8317/plugins/mg5mes'
+rm -rf tmp lib
+cd examples && make clean
+make[1]: se entra en el directorio '/tmp/tmpb37grked/pythia8317/examples'
+make[1]: se sale del directorio '/tmp/tmpb37grked/pythia8317/examples'
+cd examples && make clean
+make[1]: se entra en el directorio '/tmp/tmpb37grked/pythia8317/examples'
+make[1]: se sale del directorio '/tmp/tmpb37grked/pythia8317/examples'
+find . -type f -name Makefile.inc -print0 | xargs -0 rm -f
+find . -type f -name "*~" -print0 | xargs -0 rm -f
+find . -type f -name "#*" -print0 | xargs -0 rm -f
+rm -rf bin/
+rm -f share/Pythia8/AUTHORS
+rm -f share/Pythia8/COPYING
+rm -f share/Pythia8/GUIDELINES
+rm -f share/Pythia8/README
+[1mRunning PYTHIA configuration script. Now is mar 21 jul 2026 20:12:09 CST(B[m
+---------------------------------------------------------------------
+|                    PYTHIA Configuration Summary                   |
+---------------------------------------------------------------------
+  Architecture                = LINUX
+  C++ compiler     CXX        = g++
+  C++ dynamic tags CXX_DTAGS  = -Wl,--disable-new-dtags
+  C++ flags        CXX_COMMON = -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include
+  C++ shared flag  CXX_SHARED = -shared
+  Further options             = 
+
+The following optional external packages will be used:
+[1m + HEPMC2(B[m (-I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/hepmc/include)
+[1m + GZIP(B[m (-I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include)
+./configure ./configure --prefix=/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/pythia8/ --with-hepmc2=/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/hepmc --with-hepmc2-include=/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/hepmc/include --with-gzip=/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib  --cxx-common='-ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2'
+g++
+ >> Compile PYTHIA8
+g++ src/Analysis.cc -o tmp/Analysis.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/Basics.cc -o tmp/Basics.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/BeamParticle.cc -o tmp/BeamParticle.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/BeamRemnants.cc -o tmp/BeamRemnants.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/BeamSetup.cc -o tmp/BeamSetup.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/BeamShape.cc -o tmp/BeamShape.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/BoseEinstein.cc -o tmp/BoseEinstein.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/ColourReconnection.cc -o tmp/ColourReconnection.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/ColourTracing.cc -o tmp/ColourTracing.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/DeuteronProduction.cc -o tmp/DeuteronProduction.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/Event.cc -o tmp/Event.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/ExternalMEs.cc -o tmp/ExternalMEs.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/FJcore.cc -o tmp/FJcore.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include  -DFJCORE_HAVE_LIMITED_THREAD_SAFETY
+g++ src/FragmentationFlavZpT.cc -o tmp/FragmentationFlavZpT.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/FragmentationModel.cc -o tmp/FragmentationModel.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/FragmentationSystems.cc -o tmp/FragmentationSystems.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/GammaKinematics.cc -o tmp/GammaKinematics.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/HIInfo.cc -o tmp/HIInfo.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/HINucleusModel.cc -o tmp/HINucleusModel.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/HISubCollisionModel.cc -o tmp/HISubCollisionModel.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/HadronLevel.cc -o tmp/HadronLevel.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/HadronWidths.cc -o tmp/HadronWidths.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/HardDiffraction.cc -o tmp/HardDiffraction.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/HeavyIons.cc -o tmp/HeavyIons.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/HelicityBasics.cc -o tmp/HelicityBasics.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/HelicityMatrixElements.cc -o tmp/HelicityMatrixElements.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/HiddenValleyFragmentation.cc -o tmp/HiddenValleyFragmentation.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/History.cc -o tmp/History.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/Info.cc -o tmp/Info.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/JunctionSplitting.cc -o tmp/JunctionSplitting.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/LHEF3.cc -o tmp/LHEF3.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/LesHouches.cc -o tmp/LesHouches.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/Logger.cc -o tmp/Logger.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/LowEnergyProcess.cc -o tmp/LowEnergyProcess.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/MathTools.cc -o tmp/MathTools.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/Merging.cc -o tmp/Merging.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/MergingHooks.cc -o tmp/MergingHooks.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/MiniStringFragmentation.cc -o tmp/MiniStringFragmentation.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/MultipartonInteractions.cc -o tmp/MultipartonInteractions.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/NucleonExcitations.cc -o tmp/NucleonExcitations.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/ParticleData.cc -o tmp/ParticleData.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/ParticleDecays.cc -o tmp/ParticleDecays.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/PartonDistributions.cc -o tmp/PartonDistributions.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/PartonLevel.cc -o tmp/PartonLevel.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/PartonSystems.cc -o tmp/PartonSystems.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/PartonVertex.cc -o tmp/PartonVertex.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/PhaseSpace.cc -o tmp/PhaseSpace.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/PhysicsBase.cc -o tmp/PhysicsBase.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/Plugins.cc -o tmp/Plugins.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/ProcessContainer.cc -o tmp/ProcessContainer.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/ProcessLevel.cc -o tmp/ProcessLevel.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/Pythia.cc -o tmp/Pythia.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include  -DXMLDIR=\"/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/pythia8//share/Pythia8/xmldoc\"
+g++ src/PythiaParallel.cc -o tmp/PythiaParallel.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/PythiaStdlib.cc -o tmp/PythiaStdlib.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/RHadrons.cc -o tmp/RHadrons.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/ResonanceDecays.cc -o tmp/ResonanceDecays.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/ResonanceWidths.cc -o tmp/ResonanceWidths.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/ResonanceWidthsDM.cc -o tmp/ResonanceWidthsDM.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/Ropewalk.cc -o tmp/Ropewalk.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SLHAinterface.cc -o tmp/SLHAinterface.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/Settings.cc -o tmp/Settings.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/ShowerModel.cc -o tmp/ShowerModel.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SigmaCompositeness.cc -o tmp/SigmaCompositeness.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SigmaDM.cc -o tmp/SigmaDM.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SigmaEW.cc -o tmp/SigmaEW.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SigmaExtraDim.cc -o tmp/SigmaExtraDim.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SigmaGeneric.cc -o tmp/SigmaGeneric.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SigmaHiggs.cc -o tmp/SigmaHiggs.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SigmaLeftRightSym.cc -o tmp/SigmaLeftRightSym.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SigmaLeptoquark.cc -o tmp/SigmaLeptoquark.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SigmaLowEnergy.cc -o tmp/SigmaLowEnergy.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SigmaNewGaugeBosons.cc -o tmp/SigmaNewGaugeBosons.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SigmaOnia.cc -o tmp/SigmaOnia.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SigmaProcess.cc -o tmp/SigmaProcess.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SigmaQCD.cc -o tmp/SigmaQCD.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SigmaSUSY.cc -o tmp/SigmaSUSY.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SigmaTotal.cc -o tmp/SigmaTotal.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SimpleSpaceShower.cc -o tmp/SimpleSpaceShower.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SimpleTimeShower.cc -o tmp/SimpleTimeShower.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SimpleWeakShowerMEs.cc -o tmp/SimpleWeakShowerMEs.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SplittingsOnia.cc -o tmp/SplittingsOnia.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/StandardModel.cc -o tmp/StandardModel.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/Streams.cc -o tmp/Streams.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/StringFragmentation.cc -o tmp/StringFragmentation.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/StringInteractions.cc -o tmp/StringInteractions.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/StringLength.cc -o tmp/StringLength.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SusyCouplings.cc -o tmp/SusyCouplings.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SusyLesHouches.cc -o tmp/SusyLesHouches.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SusyResonanceWidths.cc -o tmp/SusyResonanceWidths.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/SusyWidthFunctions.cc -o tmp/SusyWidthFunctions.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/TauDecays.cc -o tmp/TauDecays.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/ThermalFragmentation.cc -o tmp/ThermalFragmentation.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/UserHooks.cc -o tmp/UserHooks.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/Vincia.cc -o tmp/Vincia.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/VinciaAntennaFunctions.cc -o tmp/VinciaAntennaFunctions.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/VinciaCommon.cc -o tmp/VinciaCommon.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/VinciaDiagnostics.cc -o tmp/VinciaDiagnostics.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/VinciaEW.cc -o tmp/VinciaEW.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/VinciaFSR.cc -o tmp/VinciaFSR.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/VinciaHistory.cc -o tmp/VinciaHistory.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/VinciaISR.cc -o tmp/VinciaISR.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/VinciaMerging.cc -o tmp/VinciaMerging.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/VinciaMergingHooks.cc -o tmp/VinciaMergingHooks.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/VinciaQED.cc -o tmp/VinciaQED.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/VinciaTrialGenerators.cc -o tmp/VinciaTrialGenerators.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/VinciaWeights.cc -o tmp/VinciaWeights.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+g++ src/Weights.cc -o tmp/Weights.o -c -MD -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include 
+x86_64-conda-linux-gnu-ar -rv lib/libpythia8.a tmp/Analysis.o tmp/Basics.o tmp/BeamParticle.o tmp/BeamRemnants.o tmp/BeamSetup.o tmp/BeamShape.o tmp/BoseEinstein.o tmp/ColourReconnection.o tmp/ColourTracing.o tmp/DeuteronProduction.o tmp/Event.o tmp/ExternalMEs.o tmp/FJcore.o tmp/FragmentationFlavZpT.o tmp/FragmentationModel.o tmp/FragmentationSystems.o tmp/GammaKinematics.o tmp/HIInfo.o tmp/HINucleusModel.o tmp/HISubCollisionModel.o tmp/HadronLevel.o tmp/HadronWidths.o tmp/HardDiffraction.o tmp/HeavyIons.o tmp/HelicityBasics.o tmp/HelicityMatrixElements.o tmp/HiddenValleyFragmentation.o tmp/History.o tmp/Info.o tmp/JunctionSplitting.o tmp/LHEF3.o tmp/LesHouches.o tmp/Logger.o tmp/LowEnergyProcess.o tmp/MathTools.o tmp/Merging.o tmp/MergingHooks.o tmp/MiniStringFragmentation.o tmp/MultipartonInteractions.o tmp/NucleonExcitations.o tmp/ParticleData.o tmp/ParticleDecays.o tmp/PartonDistributions.o tmp/PartonLevel.o tmp/PartonSystems.o tmp/PartonVertex.o tmp/PhaseSpace.o tmp/PhysicsBase.o tmp/Plugins.o tmp/ProcessContainer.o tmp/ProcessLevel.o tmp/Pythia.o tmp/PythiaParallel.o tmp/PythiaStdlib.o tmp/RHadrons.o tmp/ResonanceDecays.o tmp/ResonanceWidths.o tmp/ResonanceWidthsDM.o tmp/Ropewalk.o tmp/SLHAinterface.o tmp/Settings.o tmp/ShowerModel.o tmp/SigmaCompositeness.o tmp/SigmaDM.o tmp/SigmaEW.o tmp/SigmaExtraDim.o tmp/SigmaGeneric.o tmp/SigmaHiggs.o tmp/SigmaLeftRightSym.o tmp/SigmaLeptoquark.o tmp/SigmaLowEnergy.o tmp/SigmaNewGaugeBosons.o tmp/SigmaOnia.o tmp/SigmaProcess.o tmp/SigmaQCD.o tmp/SigmaSUSY.o tmp/SigmaTotal.o tmp/SimpleSpaceShower.o tmp/SimpleTimeShower.o tmp/SimpleWeakShowerMEs.o tmp/SplittingsOnia.o tmp/StandardModel.o tmp/Streams.o tmp/StringFragmentation.o tmp/StringInteractions.o tmp/StringLength.o tmp/SusyCouplings.o tmp/SusyLesHouches.o tmp/SusyResonanceWidths.o tmp/SusyWidthFunctions.o tmp/TauDecays.o tmp/ThermalFragmentation.o tmp/UserHooks.o tmp/Vincia.o tmp/VinciaAntennaFunctions.o tmp/VinciaCommon.o tmp/VinciaDiagnostics.o tmp/VinciaEW.o tmp/VinciaFSR.o tmp/VinciaHistory.o tmp/VinciaISR.o tmp/VinciaMerging.o tmp/VinciaMergingHooks.o tmp/VinciaQED.o tmp/VinciaTrialGenerators.o tmp/VinciaWeights.o tmp/Weights.o
+x86_64-conda-linux-gnu-ar: creating lib/libpythia8.a
+a - tmp/Analysis.o
+a - tmp/Basics.o
+a - tmp/BeamParticle.o
+a - tmp/BeamRemnants.o
+a - tmp/BeamSetup.o
+a - tmp/BeamShape.o
+a - tmp/BoseEinstein.o
+a - tmp/ColourReconnection.o
+a - tmp/ColourTracing.o
+a - tmp/DeuteronProduction.o
+a - tmp/Event.o
+a - tmp/ExternalMEs.o
+a - tmp/FJcore.o
+a - tmp/FragmentationFlavZpT.o
+a - tmp/FragmentationModel.o
+a - tmp/FragmentationSystems.o
+a - tmp/GammaKinematics.o
+a - tmp/HIInfo.o
+a - tmp/HINucleusModel.o
+a - tmp/HISubCollisionModel.o
+a - tmp/HadronLevel.o
+a - tmp/HadronWidths.o
+a - tmp/HardDiffraction.o
+a - tmp/HeavyIons.o
+a - tmp/HelicityBasics.o
+a - tmp/HelicityMatrixElements.o
+a - tmp/HiddenValleyFragmentation.o
+a - tmp/History.o
+a - tmp/Info.o
+a - tmp/JunctionSplitting.o
+a - tmp/LHEF3.o
+a - tmp/LesHouches.o
+a - tmp/Logger.o
+a - tmp/LowEnergyProcess.o
+a - tmp/MathTools.o
+a - tmp/Merging.o
+a - tmp/MergingHooks.o
+a - tmp/MiniStringFragmentation.o
+a - tmp/MultipartonInteractions.o
+a - tmp/NucleonExcitations.o
+a - tmp/ParticleData.o
+a - tmp/ParticleDecays.o
+a - tmp/PartonDistributions.o
+a - tmp/PartonLevel.o
+a - tmp/PartonSystems.o
+a - tmp/PartonVertex.o
+a - tmp/PhaseSpace.o
+a - tmp/PhysicsBase.o
+a - tmp/Plugins.o
+a - tmp/ProcessContainer.o
+a - tmp/ProcessLevel.o
+a - tmp/Pythia.o
+a - tmp/PythiaParallel.o
+a - tmp/PythiaStdlib.o
+a - tmp/RHadrons.o
+a - tmp/ResonanceDecays.o
+a - tmp/ResonanceWidths.o
+a - tmp/ResonanceWidthsDM.o
+a - tmp/Ropewalk.o
+a - tmp/SLHAinterface.o
+a - tmp/Settings.o
+a - tmp/ShowerModel.o
+a - tmp/SigmaCompositeness.o
+a - tmp/SigmaDM.o
+a - tmp/SigmaEW.o
+a - tmp/SigmaExtraDim.o
+a - tmp/SigmaGeneric.o
+a - tmp/SigmaHiggs.o
+a - tmp/SigmaLeftRightSym.o
+a - tmp/SigmaLeptoquark.o
+a - tmp/SigmaLowEnergy.o
+a - tmp/SigmaNewGaugeBosons.o
+a - tmp/SigmaOnia.o
+a - tmp/SigmaProcess.o
+a - tmp/SigmaQCD.o
+a - tmp/SigmaSUSY.o
+a - tmp/SigmaTotal.o
+a - tmp/SimpleSpaceShower.o
+a - tmp/SimpleTimeShower.o
+a - tmp/SimpleWeakShowerMEs.o
+a - tmp/SplittingsOnia.o
+a - tmp/StandardModel.o
+a - tmp/Streams.o
+a - tmp/StringFragmentation.o
+a - tmp/StringInteractions.o
+a - tmp/StringLength.o
+a - tmp/SusyCouplings.o
+a - tmp/SusyLesHouches.o
+a - tmp/SusyResonanceWidths.o
+a - tmp/SusyWidthFunctions.o
+a - tmp/TauDecays.o
+a - tmp/ThermalFragmentation.o
+a - tmp/UserHooks.o
+a - tmp/Vincia.o
+a - tmp/VinciaAntennaFunctions.o
+a - tmp/VinciaCommon.o
+a - tmp/VinciaDiagnostics.o
+a - tmp/VinciaEW.o
+a - tmp/VinciaFSR.o
+a - tmp/VinciaHistory.o
+a - tmp/VinciaISR.o
+a - tmp/VinciaMerging.o
+a - tmp/VinciaMergingHooks.o
+a - tmp/VinciaQED.o
+a - tmp/VinciaTrialGenerators.o
+a - tmp/VinciaWeights.o
+a - tmp/Weights.o
+g++ tmp/Analysis.o tmp/Basics.o tmp/BeamParticle.o tmp/BeamRemnants.o tmp/BeamSetup.o tmp/BeamShape.o tmp/BoseEinstein.o tmp/ColourReconnection.o tmp/ColourTracing.o tmp/DeuteronProduction.o tmp/Event.o tmp/ExternalMEs.o tmp/FJcore.o tmp/FragmentationFlavZpT.o tmp/FragmentationModel.o tmp/FragmentationSystems.o tmp/GammaKinematics.o tmp/HIInfo.o tmp/HINucleusModel.o tmp/HISubCollisionModel.o tmp/HadronLevel.o tmp/HadronWidths.o tmp/HardDiffraction.o tmp/HeavyIons.o tmp/HelicityBasics.o tmp/HelicityMatrixElements.o tmp/HiddenValleyFragmentation.o tmp/History.o tmp/Info.o tmp/JunctionSplitting.o tmp/LHEF3.o tmp/LesHouches.o tmp/Logger.o tmp/LowEnergyProcess.o tmp/MathTools.o tmp/Merging.o tmp/MergingHooks.o tmp/MiniStringFragmentation.o tmp/MultipartonInteractions.o tmp/NucleonExcitations.o tmp/ParticleData.o tmp/ParticleDecays.o tmp/PartonDistributions.o tmp/PartonLevel.o tmp/PartonSystems.o tmp/PartonVertex.o tmp/PhaseSpace.o tmp/PhysicsBase.o tmp/Plugins.o tmp/ProcessContainer.o tmp/ProcessLevel.o tmp/Pythia.o tmp/PythiaParallel.o tmp/PythiaStdlib.o tmp/RHadrons.o tmp/ResonanceDecays.o tmp/ResonanceWidths.o tmp/ResonanceWidthsDM.o tmp/Ropewalk.o tmp/SLHAinterface.o tmp/Settings.o tmp/ShowerModel.o tmp/SigmaCompositeness.o tmp/SigmaDM.o tmp/SigmaEW.o tmp/SigmaExtraDim.o tmp/SigmaGeneric.o tmp/SigmaHiggs.o tmp/SigmaLeftRightSym.o tmp/SigmaLeptoquark.o tmp/SigmaLowEnergy.o tmp/SigmaNewGaugeBosons.o tmp/SigmaOnia.o tmp/SigmaProcess.o tmp/SigmaQCD.o tmp/SigmaSUSY.o tmp/SigmaTotal.o tmp/SimpleSpaceShower.o tmp/SimpleTimeShower.o tmp/SimpleWeakShowerMEs.o tmp/SplittingsOnia.o tmp/StandardModel.o tmp/Streams.o tmp/StringFragmentation.o tmp/StringInteractions.o tmp/StringLength.o tmp/SusyCouplings.o tmp/SusyLesHouches.o tmp/SusyResonanceWidths.o tmp/SusyWidthFunctions.o tmp/TauDecays.o tmp/ThermalFragmentation.o tmp/UserHooks.o tmp/Vincia.o tmp/VinciaAntennaFunctions.o tmp/VinciaCommon.o tmp/VinciaDiagnostics.o tmp/VinciaEW.o tmp/VinciaFSR.o tmp/VinciaHistory.o tmp/VinciaISR.o tmp/VinciaMerging.o tmp/VinciaMergingHooks.o tmp/VinciaQED.o tmp/VinciaTrialGenerators.o tmp/VinciaWeights.o tmp/Weights.o -o lib/libpythia8.so -Iinclude -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include -shared -Wl,-soname,libpythia8.so\
+  -pthread -Wl,-rpath,../lib:/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/pythia8//lib -ldl -L/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/lib -Wl,-rpath,/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/lib -lz -Wl,--disable-new-dtags
+cp AUTHORS share/Pythia8/AUTHORS
+cp COPYING share/Pythia8/COPYING
+cp GUIDELINES share/Pythia8/GUIDELINES
+cp README share/Pythia8/README
+cp Makefile.inc share/Pythia8/../../examples/Makefile.inc
+mkdir -p /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/pythia8//bin /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/pythia8//include /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/pythia8//lib /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/pythia8//share/Pythia8
+rsync -a bin//* /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/pythia8//bin
+rsync -a include/* /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/pythia8//include
+rsync -a lib/* /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/pythia8//lib
+rsync -a share/Pythia8/* /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/pythia8//share/Pythia8
+rsync -a examples /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/pythia8//share/Pythia8
+g++ main164.cc -o main164 \
+\
+-I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/hepmc/include -L/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/hepmc/lib -Wl,-rpath,/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/hepmc/lib -lHepMC -DHEPMC2\
+ -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/pythia8//include -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include -L/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/lib -Wl,-rpath,/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/lib -lz -L/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/pythia8//lib -Wl,-rpath,/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/pythia8//lib -lpythia8 -ldl
+ Finished PYTHIA8 installation /tmp/tmpb37grked

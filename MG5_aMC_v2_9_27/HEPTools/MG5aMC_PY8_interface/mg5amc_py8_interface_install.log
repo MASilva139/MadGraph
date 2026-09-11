@@ -1,0 +1,5 @@
+------------------------------------------------
+MG5aMC_PY8_interface compilation output log:
+b'g++ MG5aMC_PY8_interface.cc -o MG5aMC_PY8_interface -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/hepmc/include  -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/pythia8//include -ldl -fPIC -lstdc++ -std=c++11 -O2 -pthread -DHEPMC2HACK -DHEPMC2 -DGZIP -I/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include -L/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/lib -Wl,-rpath,/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/lib -lz -L/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/pythia8//lib -Wl,-rpath,/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/pythia8//lib -lpythia8 -ldl -L/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/hepmc/lib -Wl,-rpath,/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/hepmc/lib -lHepMC\n'
+------------------------------------------------
+Successful compilation of the MG5aMC_PY8_interface.

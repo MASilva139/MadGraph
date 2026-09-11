@@ -1,0 +1,683 @@
+>> Attempting to start MA5 and check the availability of its dependencies...
+[0mMA5: Platform: Linux 7.0.0-28-generic [32m[Linux mode][0m[0m
+[0mMA5: Reading user settings ...[0m
+[36mMA5-DEBUG (user_info.ReadUserOptions() in user_info.py::L277): Opening the file: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/madanalysis/input/installation_options.dat[0m
+[36mMA5-DEBUG (user_info.ReadUserOptions() in user_info.py::L285): Lines to interpret: [0m
+[36mMA5-DEBUG (user_info.ReadUserOptions() in user_info.py::L308): Closing the file: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/madanalysis/input/installation_options.dat[0m
+[36mMA5-DEBUG (checkup.CheckSessionInfo() in checkup.py::L182): Web access[0m
+[36mMA5-DEBUG (checkup.CheckSessionInfo() in checkup.py::L188):   enable[0m
+[36mMA5-DEBUG (checkup.CheckSessionInfo() in checkup.py::L189): [0m
+[36mMA5-DEBUG (checkup.CheckSessionInfo() in checkup.py::L194): Temporary folder[0m
+[36mMA5-DEBUG (checkup.CheckSessionInfo() in checkup.py::L221):   Variable $TMPDIR:         [0m
+[36mMA5-DEBUG (checkup.CheckSessionInfo() in checkup.py::L221):   Variable $TMP:            [0m
+[36mMA5-DEBUG (checkup.CheckSessionInfo() in checkup.py::L221):   Variable $TEMP:           [0m
+[36mMA5-DEBUG (checkup.CheckSessionInfo() in checkup.py::L243): Check if the folder /tmp/karna exists ...[0m
+[36mMA5-DEBUG (checkup.CheckSessionInfo() in checkup.py::L248): -> not found[0m
+[36mMA5-DEBUG (checkup.CheckSessionInfo() in checkup.py::L249): Try to create the folder /tmp/karna ...[0m
+[36mMA5-DEBUG (checkup.CheckSessionInfo() in checkup.py::L258): temporary folder will be used for MA5: /tmp/karna[0m
+[36mMA5-DEBUG (checkup.CheckSessionInfo() in checkup.py::L262): [0m
+[36mMA5-DEBUG (checkup.CheckSessionInfo() in checkup.py::L265): Download dir[0m
+[36mMA5-DEBUG (checkup.CheckSessionInfo() in checkup.py::L288): Check if the folder /tmp/karna/MA5_downloads exists ...[0m
+[36mMA5-DEBUG (checkup.CheckSessionInfo() in checkup.py::L293): -> not found[0m
+[36mMA5-DEBUG (checkup.CheckSessionInfo() in checkup.py::L294): Try to create the folder /tmp/karna/MA5_downloads ...[0m
+[36mMA5-DEBUG (checkup.CheckSessionInfo() in checkup.py::L303): download folder will be used for MA5: /tmp/karna/MA5_downloads[0m
+[36mMA5-DEBUG (checkup.CheckSessionInfo() in checkup.py::L307): [0m
+[36mMA5-DEBUG (checkup.CheckSessionInfo() in checkup.py::L310): Text editor[0m
+[36mMA5-DEBUG (checkup.CheckSessionInfo() in checkup.py::L311): Look for the global variable $EDITOR ...[0m
+[36mMA5-DEBUG (checkup.CheckSessionInfo() in checkup.py::L319): -> variable not found. VI editor is set by default.[0m
+[36mMA5-DEBUG (checkup.CheckSessionInfo() in checkup.py::L323): [0m
+[0mMA5: Checking mandatory packages:[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L49): ------------------------------------------------------[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L51): Detect package python[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L241): Try to detect automatically the package ...[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L281): Extract more informations related to the package ...[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L299): Saving informations ...[0m
+[0mMA5:      - Python                   [32m[OK][0m[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L49): ------------------------------------------------------[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L51): Detect package gpp[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L241): Try to detect automatically the package ...[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L281): Extract more informations related to the package ...[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L299): Saving informations ...[0m
+[0mMA5:      - GNU GCC g++              [32m[OK][0m[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L49): ------------------------------------------------------[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L51): Detect package make[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L241): Try to detect automatically the package ...[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L281): Extract more informations related to the package ...[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L299): Saving informations ...[0m
+[0mMA5:      - GNU Make                 [32m[OK][0m[0m
+[0mMA5: Checking optional packages devoted to data processing:[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L49): ------------------------------------------------------[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L51): Detect package zlib[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L155): Is there a veto? ...[0m
+[36mMA5-DEBUG (detect_zlib.IsItVetoed() in detect_zlib.py::L83): no user veto[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L187): Detection of the package in the location specified by the user ...[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L212): Detection of the package in the "tools" folder ...[0m
+[36mMA5-DEBUG (detect_zlib.ToolsDetection() in detect_zlib.py::L180): Look for zlib folder in path /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/zlib ...[0m
+[36mMA5-DEBUG (detect_zlib.ToolsDetection() in detect_zlib.py::L182): -> not found[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L241): Try to detect automatically the package ...[0m
+[36mMA5-DEBUG (detect_zlib.AutoDetection() in detect_zlib.py::L221): Search for header & libraries possible paths...[0m
+[36mMA5-DEBUG (detect_zlib.AutoDetection() in detect_zlib.py::L224): ->header  paths=['.', '/usr/include', '/usr/local/include'][0m
+[36mMA5-DEBUG (detect_zlib.AutoDetection() in detect_zlib.py::L225): ->library paths=['/home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++', '/home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/x86_64-conda-linux-gnu', '/home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/backward', '/home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include', '/home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include-fixed', '/home/karna/anaconda3/envs/MG5/x86_64-conda-linux-gnu/sysroot/usr/include', '/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/lhapdf6_py3/lib', '.', '/usr/lib64', '/usr/libexec', '/usr/lib', '/usr/local/lib', '/home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0', '/home/karna/anaconda3/envs/MG5/lib/gcc', '/home/karna/anaconda3/envs/MG5/x86_64-conda-linux-gnu/lib', '/home/karna/anaconda3/envs/MG5/lib', '/home/karna/anaconda3/envs/MG5/x86_64-conda-linux-gnu/sysroot/lib', '/home/karna/anaconda3/envs/MG5/x86_64-conda-linux-gnu/sysroot/usr/lib'][0m
+[36mMA5-DEBUG (detect_zlib.AutoDetection() in detect_zlib.py::L228): Look for the header file zlib.h ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern zlib.h ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L215): -> no file found[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /usr/include/zlib.h ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L212): -> found: /usr/include/zlib.h[0m
+[36mMA5-DEBUG (detect_zlib.AutoDetection() in detect_zlib.py::L242): Look for the zlib libraries ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/libz.so ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/libz.a ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/libz.so.* ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L215): -> no file found[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/x86_64-conda-linux-gnu/libz.so ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/x86_64-conda-linux-gnu/libz.a ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/x86_64-conda-linux-gnu/libz.so.* ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L215): -> no file found[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/backward/libz.so ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/backward/libz.a ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/backward/libz.so.* ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L215): -> no file found[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/libz.so ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/libz.a ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/libz.so.* ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L215): -> no file found[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include-fixed/libz.so ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include-fixed/libz.a ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include-fixed/libz.so.* ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L215): -> no file found[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/x86_64-conda-linux-gnu/sysroot/usr/include/libz.so ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/x86_64-conda-linux-gnu/sysroot/usr/include/libz.a ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/x86_64-conda-linux-gnu/sysroot/usr/include/libz.so.* ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L215): -> no file found[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/lhapdf6_py3/lib/libz.so ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/lhapdf6_py3/lib/libz.a ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/lhapdf6_py3/lib/libz.so.* ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L215): -> no file found[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern libz.so ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern libz.a ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern libz.so.* ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L215): -> no file found[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /usr/lib64/libz.so ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /usr/lib64/libz.a ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /usr/lib64/libz.so.* ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L215): -> no file found[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /usr/libexec/libz.so ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /usr/libexec/libz.a ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /usr/libexec/libz.so.* ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L215): -> no file found[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /usr/lib/libz.so ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /usr/lib/libz.a ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /usr/lib/libz.so.* ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L215): -> no file found[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /usr/local/lib/libz.so ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /usr/local/lib/libz.a ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /usr/local/lib/libz.so.* ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L215): -> no file found[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0/libz.so ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0/libz.a ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/gcc/x86_64-conda-linux-gnu/14.3.0/libz.so.* ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L215): -> no file found[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/gcc/libz.so ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/gcc/libz.a ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/gcc/libz.so.* ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L215): -> no file found[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/x86_64-conda-linux-gnu/lib/libz.so ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/x86_64-conda-linux-gnu/lib/libz.a ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/x86_64-conda-linux-gnu/lib/libz.so.* ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L215): -> no file found[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/libz.so ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L212): -> found: /home/karna/anaconda3/envs/MG5/lib/libz.so[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/libz.a ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L212): -> found: /home/karna/anaconda3/envs/MG5/lib/libz.a[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/anaconda3/envs/MG5/lib/libz.so.* ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L212): -> found: /home/karna/anaconda3/envs/MG5/lib/libz.so.1[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L212): -> found: /home/karna/anaconda3/envs/MG5/lib/libz.so.1.3.2[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L299): Saving informations ...[0m
+[0mMA5:      - Zlib                     [32m[OK][0m[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L49): ------------------------------------------------------[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L51): Detect package fastjet[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L155): Is there a veto? ...[0m
+[36mMA5-DEBUG (detect_fastjet.IsItVetoed() in detect_fastjet.py::L58): no user veto[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L187): Detection of the package in the location specified by the user ...[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L212): Detection of the package in the "tools" folder ...[0m
+[36mMA5-DEBUG (detect_fastjet.ToolsDetection() in detect_fastjet.py::L95): Look for FastJet in the folder here:/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/fastjet/bin/fastjet-config ...[0m
+[36mMA5-DEBUG (detect_fastjet.ToolsDetection() in detect_fastjet.py::L101): -> not found[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L241): Try to detect automatically the package ...[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L281): Extract more informations related to the package ...[0m
+[36mMA5-DEBUG (detect_fastjet.ExtractInfo() in detect_fastjet.py::L153): Trying to get library and header paths ...[0m
+[36mMA5-DEBUG (detect_fastjet.ExtractInfo() in detect_fastjet.py::L163):   Lib flags:     -Wl,-rpath,/home/karna/anaconda3/envs/MG5/lib -L/home/karna/anaconda3/envs/MG5/lib -lfastjettools -lfastjet -lfastjetplugins -lsiscone -lsiscone_spherical[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L299): Saving informations ...[0m
+[0mMA5:      - FastJet                  [32m[OK][0m[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L49): ------------------------------------------------------[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L51): Detect package root[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L155): Is there a veto? ...[0m
+[36mMA5-DEBUG (detect_root.IsItVetoed() in detect_root.py::L63): no user veto[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L187): Detection of the package in the location specified by the user ...[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L212): Detection of the package in the "tools" folder ...[0m
+[36mMA5-DEBUG (detect_root.ToolsDetection() in detect_root.py::L96): Detecting root-config in the tools folder ...[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L241): Try to detect automatically the package ...[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L281): Extract more informations related to the package ...[0m
+[36mMA5-DEBUG (detect_root.ExtractInfo() in detect_root.py::L154): Trying to get library and header paths ...[0m
+[36mMA5-DEBUG (detect_root.ExtractInfo() in detect_root.py::L173): -> root-config found[0m
+[36mMA5-DEBUG (detect_root.ExtractInfo() in detect_root.py::L174): -> root version: 6.40.02[0m
+[36mMA5-DEBUG (detect_root.ExtractInfo() in detect_root.py::L175): -> root header  folder: /home/karna/anaconda3/envs/MG5/include[0m
+[36mMA5-DEBUG (detect_root.ExtractInfo() in detect_root.py::L176): -> root library folder: /home/karna/anaconda3/envs/MG5/lib[0m
+[36mMA5-DEBUG (detect_root.ExtractInfo() in detect_root.py::L182): Try to find /home/karna/anaconda3/envs/MG5/lib/libCore.so ...[0m
+[36mMA5-DEBUG (detect_root.ExtractInfo() in detect_root.py::L182): Try to find /home/karna/anaconda3/envs/MG5/include/TH1F.h ...[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L299): Saving informations ...[0m
+[0mMA5:      - Root                     [32m[OK][0m[0m
+[36mMA5-DEBUG (config_checker.checkDelphes() in config_checker.py::L333): Delphes[0m
+[36mMA5-DEBUG (config_checker.checkDelphes() in config_checker.py::L398): Look for Delphes in the folder /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools ...[0m
+[36mMA5-DEBUG (config_checker.checkDelphes() in config_checker.py::L428): -> not found[0m
+[0mMA5:      - Delphes                  [35m[DISABLED][0m[0m
+[36mMA5-DEBUG (config_checker.checkDelphesMA5tune() in config_checker.py::L534): Delphes-MA5tune[0m
+[36mMA5-DEBUG (config_checker.checkDelphesMA5tune() in config_checker.py::L599): Look for DelphesMA5tune in the folder /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools...[0m
+[36mMA5-DEBUG (config_checker.checkDelphesMA5tune() in config_checker.py::L629): -> not found[0m
+[0mMA5:      - Delphes-MA5tune          [35m[DISABLED][0m[0m
+[36mMA5-DEBUG (checkup.CreateSymLink() in checkup.py::L417): Creating symbolic link from /home/karna/anaconda3/envs/MG5/bin/root-config[0m
+[36mMA5-DEBUG (checkup.CreateSymLink() in checkup.py::L418):                        to   /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/ExternalSymLink/Bin/root-config ...[0m
+[36mMA5-DEBUG (checkup.CreateSymLink() in checkup.py::L417): Creating symbolic link from /home/karna/anaconda3/envs/MG5/bin/fastjet-config[0m
+[36mMA5-DEBUG (checkup.CreateSymLink() in checkup.py::L418):                        to   /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/ExternalSymLink/Bin/fastjet-config ...[0m
+[36mMA5-DEBUG (checkup.CreateSymLink() in checkup.py::L417): Creating symbolic link from /home/karna/anaconda3/envs/MG5/lib/libz.so[0m
+[36mMA5-DEBUG (checkup.CreateSymLink() in checkup.py::L418):                        to   /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/ExternalSymLink/Lib/libz.so ...[0m
+[36mMA5-DEBUG (checkup.CreateSymLink() in checkup.py::L417): Creating symbolic link from /home/karna/anaconda3/envs/MG5/lib/libz.a[0m
+[36mMA5-DEBUG (checkup.CreateSymLink() in checkup.py::L418):                        to   /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/ExternalSymLink/Lib/libz.a ...[0m
+[36mMA5-DEBUG (checkup.CreateSymLink() in checkup.py::L417): Creating symbolic link from /home/karna/anaconda3/envs/MG5/lib/libz.so.1[0m
+[36mMA5-DEBUG (checkup.CreateSymLink() in checkup.py::L418):                        to   /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/ExternalSymLink/Lib/libz.so.1 ...[0m
+[36mMA5-DEBUG (checkup.CreateSymLink() in checkup.py::L417): Creating symbolic link from /home/karna/anaconda3/envs/MG5/lib/libz.so.1.3.2[0m
+[36mMA5-DEBUG (checkup.CreateSymLink() in checkup.py::L418):                        to   /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/ExternalSymLink/Lib/libz.so.1.3.2 ...[0m
+[36mMA5-DEBUG (checkup.SetFolder() in checkup.py::L557): -------- BEGIN: set environment variables --------[0m
+[36mMA5-DEBUG (checkup.SetFolder() in checkup.py::L562): before PATH=/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/bin:/home/karna/anaconda3/envs/MG5/bin:/home/karna/anaconda3/condabin:/home/karna/.pyenv/shims:/home/karna/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin[0m
+[36mMA5-DEBUG (checkup.SetFolder() in checkup.py::L563): --------[0m
+[36mMA5-DEBUG (checkup.SetFolder() in checkup.py::L571): after PATH=/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/ExternalSymLink/Bin:/home/karna/anaconda3/envs/MG5/bin:/home/karna/anaconda3/envs/MG5/bin:/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/bin:/home/karna/anaconda3/envs/MG5/bin:/home/karna/anaconda3/condabin:/home/karna/.pyenv/shims:/home/karna/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:[0m
+[36mMA5-DEBUG (checkup.SetFolder() in checkup.py::L572): --------[0m
+[36mMA5-DEBUG (checkup.SetFolder() in checkup.py::L577): before LD_LIBRARY_PATH=/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/lhapdf6_py3/lib:/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/lhapdf6_py3/lib:/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/lhapdf6_py3/lib:/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/lhapdf6_py3/lib:/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/lhapdf6_py3/lib:/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/lhapdf6_py3/lib[0m
+[36mMA5-DEBUG (checkup.SetFolder() in checkup.py::L578): --------[0m
+[36mMA5-DEBUG (checkup.SetFolder() in checkup.py::L586): after LD_LIBRARY_PATH=/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Lib:/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/ExternalSymLink/Lib:/home/karna/anaconda3/envs/MG5/lib:/home/karna/anaconda3/envs/MG5/lib:/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/lhapdf6_py3/lib:/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/lhapdf6_py3/lib:/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/lhapdf6_py3/lib:/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/lhapdf6_py3/lib:/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/lhapdf6_py3/lib:/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/lhapdf6_py3/lib:[0m
+[36mMA5-DEBUG (checkup.SetFolder() in checkup.py::L587): --------[0m
+[36mMA5-DEBUG (checkup.SetFolder() in checkup.py::L592): before DYLD_LIBRARY_PATH=[0m
+[36mMA5-DEBUG (checkup.SetFolder() in checkup.py::L595): --------[0m
+[36mMA5-DEBUG (checkup.SetFolder() in checkup.py::L604): after DYLD_LIBRARY_PATH=[0m
+[36mMA5-DEBUG (checkup.SetFolder() in checkup.py::L607): --------[0m
+[36mMA5-DEBUG (checkup.SetFolder() in checkup.py::L619): -------- END: set environment variables --------[0m
+[0mMA5: Reading user settings ...[0m
+[36mMA5-DEBUG (user_info.ReadUserOptions() in user_info.py::L277): Opening the file: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/madanalysis/input/installation_options.dat[0m
+[36mMA5-DEBUG (user_info.ReadUserOptions() in user_info.py::L285): Lines to interpret: [0m
+[36mMA5-DEBUG (user_info.ReadUserOptions() in user_info.py::L308): Closing the file: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/madanalysis/input/installation_options.dat[0m
+[0mMA5: Checking optional packages devoted to reinterpretation:[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L49): ------------------------------------------------------[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L51): Detect package scipy[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L155): Is there a veto? ...[0m
+[36mMA5-DEBUG (detect_scipy.IsItVetoed() in detect_scipy.py::L57): no user veto[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L241): Try to detect automatically the package ...[0m
+[36mMA5-DEBUG (detect_scipy.AutoDetection() in detect_scipy.py::L67): No module named 'scipy'[0m
+[0mMA5:      - SciPy                    [35m[DISABLED][0m[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L49): ------------------------------------------------------[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L51): Detect package spey[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L155): Is there a veto? ...[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L241): Try to detect automatically the package ...[0m
+[36mMA5-DEBUG (detect_spey.AutoDetection() in detect_spey.py::L54): No module named 'spey'[0m
+[0mMA5:      - Spey                     [35m[DISABLED][0m[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L49): ------------------------------------------------------[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L51): Detect package pyhf[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L155): Is there a veto? ...[0m
+[36mMA5-DEBUG (detect_pyhf.IsItVetoed() in detect_pyhf.py::L50): no user veto[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L241): Try to detect automatically the package ...[0m
+[36mMA5-DEBUG (detect_pyhf.AutoDetection() in detect_pyhf.py::L70): No module named 'pyhf'[0m
+[0mMA5:      - pyhf                     [35m[DISABLED][0m[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L49): ------------------------------------------------------[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L51): Detect package pad[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L155): Is there a veto? ...[0m
+[36mMA5-DEBUG (detect_pad.IsItVetoed() in detect_pad.py::L73): no user veto[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L170): Are dependencies installed on the machine? ...[0m
+[36mMA5-DEBUG (detect_pad.AreDependenciesInstalled() in detect_pad.py::L86): dependency 'Delphes' is not installed[0m
+[0mMA5:      - PAD                      [35m[DISABLED][0m[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L49): ------------------------------------------------------[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L51): Detect package padma5[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L155): Is there a veto? ...[0m
+[36mMA5-DEBUG (detect_pad.IsItVetoed() in detect_pad.py::L59): no user veto[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L170): Are dependencies installed on the machine? ...[0m
+[36mMA5-DEBUG (detect_pad.AreDependenciesInstalled() in detect_pad.py::L82): dependency 'DelphesMA5tune' is not installed[0m
+[0mMA5:      - PADForMA5tune            [35m[DISABLED][0m[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L49): ------------------------------------------------------[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L51): Detect package padsfs[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L155): Is there a veto? ...[0m
+[36mMA5-DEBUG (detect_pad.IsItVetoed() in detect_pad.py::L66): no user veto[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L170): Are dependencies installed on the machine? ...[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L187): Detection of the package in the location specified by the user ...[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L212): Detection of the package in the "tools" folder ...[0m
+[0mMA5:      - PADForSFS                [35m[DISABLED][0m[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L49): ------------------------------------------------------[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L51): Detect package simplify[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L155): Is there a veto? ...[0m
+[36mMA5-DEBUG (detect_simplify.IsItVetoed() in detect_simplify.py::L50): no user veto[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L241): Try to detect automatically the package ...[0m
+[36mMA5-DEBUG (detect_simplify.AutoDetection() in detect_simplify.py::L64): No module named 'simplify'[0m
+[36mMA5-DEBUG (detect_manager.PrintDISABLED() in detect_manager.py::L364):      - likelihood simplifier    [35m[DISABLED][0m[0m
+[0mMA5: Checking optional packages devoted to histogramming:[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L49): ------------------------------------------------------[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L51): Detect package root_graphical[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L155): Is there a veto? ...[0m
+[36mMA5-DEBUG (detect_root_graphical.IsItVetoed() in detect_root_graphical.py::L56): no user veto[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L170): Are dependencies installed on the machine? ...[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L241): Try to detect automatically the package ...[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L299): Saving informations ...[0m
+[0mMA5:      - Root                     [32m[OK][0m[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L49): ------------------------------------------------------[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L51): Detect package matplotlib[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L155): Is there a veto? ...[0m
+[36mMA5-DEBUG (detect_matplotlib.IsItVetoed() in detect_matplotlib.py::L57): no user veto[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L241): Try to detect automatically the package ...[0m
+[0mMA5:      - Matplotlib               [35m[DISABLED][0m[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L49): ------------------------------------------------------[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L51): Detect package gnuplot[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L155): Is there a veto? ...[0m
+[36mMA5-DEBUG (detect_gnuplot.IsItVetoed() in detect_gnuplot.py::L61): no user veto[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L241): Try to detect automatically the package ...[0m
+[0mMA5:      - gnuplot                  [35m[DISABLED][0m[0m
+[35mMA5-WARNING: gnuplot disabled. Plots in gnuplot format file will not be produced.[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L49): ------------------------------------------------------[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L51): Detect package pdflatex[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L155): Is there a veto? ...[0m
+[36mMA5-DEBUG (detect_pdflatex.IsItVetoed() in detect_pdflatex.py::L61): no user veto[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L241): Try to detect automatically the package ...[0m
+[0mMA5:      - pdflatex                 [35m[DISABLED][0m[0m
+[35mMA5-WARNING: pdflatex disabled. Reports under the pdf format will not be compiled.[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L49): ------------------------------------------------------[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L51): Detect package latex[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L155): Is there a veto? ...[0m
+[36mMA5-DEBUG (detect_latex.IsItVetoed() in detect_latex.py::L61): no user veto[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L241): Try to detect automatically the package ...[0m
+[0mMA5:      - latex                    [35m[DISABLED][0m[0m
+[35mMA5-WARNING: latex disabled. Reports under the dvi format will not be compiled.[0m
+[36mMA5-DEBUG (main.AutoSetGraphicalRenderer() in main.py::L485): Function AutoSetGraphicalRenderer:[0m
+[36mMA5-DEBUG (main.AutoSetGraphicalRenderer() in main.py::L486):    - ROOT is there:       True[0m
+[36mMA5-DEBUG (main.AutoSetGraphicalRenderer() in main.py::L487):    - Matplotlib is there: False[0m
+[0mMA5: Package used for graphical rendering: [32mRoot[0m[0m
+[36mMA5-DEBUG (checkup.check_updates() in checkup.py::L642): Cannot check updates...[0m
+[0mMA5: Particle labels exported from madanalysis/input/particles_name_default.txt[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [met] with a PDG-id : 100[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [mht] with a PDG-id : 99[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [d] with a PDG-id : 1[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [d~] with a PDG-id : -1[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [u] with a PDG-id : 2[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [u~] with a PDG-id : -2[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [s] with a PDG-id : 3[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [s~] with a PDG-id : -3[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [c] with a PDG-id : 4[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [c~] with a PDG-id : -4[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [b] with a PDG-id : 5[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [b~] with a PDG-id : -5[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [t] with a PDG-id : 6[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [t~] with a PDG-id : -6[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [e-] with a PDG-id : 11[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [e+] with a PDG-id : -11[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [ve] with a PDG-id : 12[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [ve~] with a PDG-id : -12[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [mu-] with a PDG-id : 13[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [mu+] with a PDG-id : -13[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [vm] with a PDG-id : 14[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [vm~] with a PDG-id : -14[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [ta-] with a PDG-id : 15[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [ta+] with a PDG-id : -15[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [vt] with a PDG-id : 16[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [vt~] with a PDG-id : -16[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [g] with a PDG-id : 21[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [a] with a PDG-id : 22[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [z] with a PDG-id : 23[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [w+] with a PDG-id : 24[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [w-] with a PDG-id : -24[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [h1] with a PDG-id : 25[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [h2] with a PDG-id : 35[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [h3] with a PDG-id : 36[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [h+] with a PDG-id : 37[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [h-] with a PDG-id : -37[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [dl] with a PDG-id : 1000001[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [dl~] with a PDG-id : -1000001[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [dr] with a PDG-id : 2000001[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [dr~] with a PDG-id : -2000001[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [ul] with a PDG-id : 1000002[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [ul~] with a PDG-id : -1000002[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [ur] with a PDG-id : 2000002[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [ur~] with a PDG-id : -2000002[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [sl] with a PDG-id : 1000003[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [sl~] with a PDG-id : -1000003[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [sr] with a PDG-id : 2000003[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [sr~] with a PDG-id : -2000003[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [cl] with a PDG-id : 1000004[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [cl~] with a PDG-id : -1000004[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [cr] with a PDG-id : 2000004[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [cr~] with a PDG-id : -2000004[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [b1] with a PDG-id : 1000005[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [b1~] with a PDG-id : -1000005[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [b2] with a PDG-id : 2000005[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [b2~] with a PDG-id : -2000005[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [t1] with a PDG-id : 1000006[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [t1~] with a PDG-id : -1000006[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [t2] with a PDG-id : 2000006[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [t2~] with a PDG-id : -2000006[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [el-] with a PDG-id : 1000011[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [el+] with a PDG-id : -1000011[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [er-] with a PDG-id : 2000011[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [er+] with a PDG-id : -2000011[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [sve] with a PDG-id : 1000012[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [sve~] with a PDG-id : -1000012[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [mul-] with a PDG-id : 1000013[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [mul+] with a PDG-id : -1000013[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [mur-] with a PDG-id : 2000013[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [mur+] with a PDG-id : -2000013[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [svm] with a PDG-id : 1000014[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [svm~] with a PDG-id : -1000014[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [ta1-] with a PDG-id : 1000015[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [ta1+] with a PDG-id : -1000015[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [ta2-] with a PDG-id : 2000015[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [ta2+] with a PDG-id : -2000015[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [svt] with a PDG-id : 1000016[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [svt~] with a PDG-id : -1000016[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [go] with a PDG-id : 1000021[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [n1] with a PDG-id : 1000022[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [n2] with a PDG-id : 1000023[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [n3] with a PDG-id : 1000025[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [n4] with a PDG-id : 1000035[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [x1+] with a PDG-id : 1000024[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [x1-] with a PDG-id : -1000024[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [x2+] with a PDG-id : 1000037[0m
+[36mMA5-DEBUG (particle_reader.Read() in particle_reader.py::L168): Extracting a particle labelled by [x2-] with a PDG-id : -1000037[0m
+[0mMA5:   => 87 particles successfully exported.[0m
+[0mMA5: Multiparticle labels exported from madanalysis/input/multiparticles_default.txt[0m
+[36mMA5-DEBUG (multiparticle_reader.Read() in multiparticle_reader.py::L173): Extracting a multiparticle labelled by [p] with a PDG-id : ['g', 'u', 'c', 'd', 's', 'u~', 'c~', 'd~', 's~'][0m
+[36mMA5-DEBUG (multiparticle_reader.Read() in multiparticle_reader.py::L173): Extracting a multiparticle labelled by [j] with a PDG-id : ['g', 'u', 'c', 'd', 's', 'u~', 'c~', 'd~', 's~'][0m
+[36mMA5-DEBUG (multiparticle_reader.Read() in multiparticle_reader.py::L173): Extracting a multiparticle labelled by [l+] with a PDG-id : ['e+', 'mu+'][0m
+[36mMA5-DEBUG (multiparticle_reader.Read() in multiparticle_reader.py::L173): Extracting a multiparticle labelled by [l-] with a PDG-id : ['e-', 'mu-'][0m
+[36mMA5-DEBUG (multiparticle_reader.Read() in multiparticle_reader.py::L173): Extracting a multiparticle labelled by [vl] with a PDG-id : ['ve', 'vm', 'vt'][0m
+[36mMA5-DEBUG (multiparticle_reader.Read() in multiparticle_reader.py::L173): Extracting a multiparticle labelled by [vl~] with a PDG-id : ['ve~', 'vm~', 'vt~'][0m
+[0mMA5:   => Creation of the label 'invisible' (-> missing energy).[0m
+[0mMA5:   => Creation of the label 'hadronic' (-> jet energy).[0m
+[0mMA5:   => 8 multiparticles successfully exported.[0m
+>> Delphes dependency specified but MadAnalysis5 needs to install its own version. Installing it now...
+[35mMA5-WARNING: Unknown value for the further_install key with-delphes. Ignoring.[0m
+[0mMA5: Checking optional packages devoted to data processing:[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L49): ------------------------------------------------------[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L51): Detect package zlib[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L155): Is there a veto? ...[0m
+[36mMA5-DEBUG (detect_zlib.IsItVetoed() in detect_zlib.py::L83): no user veto[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L187): Detection of the package in the location specified by the user ...[0m
+[36mMA5-DEBUG (detect_zlib.ManualDetection() in detect_zlib.py::L149): User setting: zlib include path is specified.[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include/zlib.h ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L212): -> found: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/include/zlib.h[0m
+[36mMA5-DEBUG (detect_zlib.ManualDetection() in detect_zlib.py::L160): User setting: zlib lib path is specified.[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/lib/libz.so ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L212): -> found: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/lib/libz.so[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/lib/libz.a ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L212): -> found: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/lib/libz.a[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L208): look for pattern /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/lib/libz.so.* ...[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L212): -> found: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/lib/libz.so.1[0m
+[36mMA5-DEBUG (detect_zlib.LookForPattern() in detect_zlib.py::L212): -> found: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/zlib/lib/libz.so.1.3.2[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L299): Saving informations ...[0m
+[0mMA5:      - Zlib                     [32m[OK][0m[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L49): ------------------------------------------------------[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L51): Detect package fastjet[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L155): Is there a veto? ...[0m
+[36mMA5-DEBUG (detect_fastjet.IsItVetoed() in detect_fastjet.py::L58): no user veto[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L187): Detection of the package in the location specified by the user ...[0m
+[36mMA5-DEBUG (detect_fastjet.ManualDetection() in detect_fastjet.py::L69): User setting: fastjet bin path is specified.[0m
+[36mMA5-DEBUG (detect_fastjet.ManualDetection() in detect_fastjet.py::L76): Detecting fastjet-config in the path specified by the user ...[0m
+[36mMA5-DEBUG (detect_fastjet.ManualDetection() in detect_fastjet.py::L78): -> not found[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L212): Detection of the package in the "tools" folder ...[0m
+[36mMA5-DEBUG (detect_fastjet.ToolsDetection() in detect_fastjet.py::L95): Look for FastJet in the folder here:/home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/fastjet/bin/fastjet-config ...[0m
+[36mMA5-DEBUG (detect_fastjet.ToolsDetection() in detect_fastjet.py::L101): -> not found[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L241): Try to detect automatically the package ...[0m
+[36mMA5-DEBUG (detect_fastjet.AutoDetection() in detect_fastjet.py::L124):   which:         /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/ExternalSymLink/Bin/fastjet-config [is it a link? True][0m
+[36mMA5-DEBUG (detect_fastjet.AutoDetection() in detect_fastjet.py::L126):                  -> /home/karna/anaconda3/envs/MG5/bin/fastjet-config[0m
+[36mMA5-DEBUG (detect_fastjet.AutoDetection() in detect_fastjet.py::L134):   which-all:     [0m
+[36mMA5-DEBUG (detect_fastjet.AutoDetection() in detect_fastjet.py::L136):     - /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/ExternalSymLink/Bin/fastjet-config[0m
+[36mMA5-DEBUG (detect_fastjet.AutoDetection() in detect_fastjet.py::L136):     - /home/karna/anaconda3/envs/MG5/bin/fastjet-config[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L281): Extract more informations related to the package ...[0m
+[36mMA5-DEBUG (detect_fastjet.ExtractInfo() in detect_fastjet.py::L150):   version:       3.5.1[0m
+[36mMA5-DEBUG (detect_fastjet.ExtractInfo() in detect_fastjet.py::L153): Trying to get library and header paths ...[0m
+[36mMA5-DEBUG (detect_fastjet.ExtractInfo() in detect_fastjet.py::L163):   Lib flags:     -Wl,-rpath,/home/karna/anaconda3/envs/MG5/lib -L/home/karna/anaconda3/envs/MG5/lib -lfastjettools -lfastjet -lfastjetplugins -lsiscone -lsiscone_spherical[0m
+[36mMA5-DEBUG (detect_fastjet.ExtractInfo() in detect_fastjet.py::L169):   Lib path:      ['/home/karna/anaconda3/envs/MG5/lib'][0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L299): Saving informations ...[0m
+[0mMA5:      - FastJet                  [32m[OK][0m[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L49): ------------------------------------------------------[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L51): Detect package root[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L155): Is there a veto? ...[0m
+[36mMA5-DEBUG (detect_root.IsItVetoed() in detect_root.py::L63): no user veto[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L187): Detection of the package in the location specified by the user ...[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L212): Detection of the package in the "tools" folder ...[0m
+[36mMA5-DEBUG (detect_root.ToolsDetection() in detect_root.py::L96): Detecting root-config in the tools folder ...[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L241): Try to detect automatically the package ...[0m
+[36mMA5-DEBUG (detect_root.AutoDetection() in detect_root.py::L131):   which:         /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/ExternalSymLink/Bin/root-config [is it a link? True][0m
+[36mMA5-DEBUG (detect_root.AutoDetection() in detect_root.py::L133):                  -> /home/karna/anaconda3/envs/MG5/bin/root-config[0m
+[36mMA5-DEBUG (detect_root.AutoDetection() in detect_root.py::L146):   which-all:     [0m
+[36mMA5-DEBUG (detect_root.AutoDetection() in detect_root.py::L148):     - /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/ExternalSymLink/Bin/root-config[0m
+[36mMA5-DEBUG (detect_root.AutoDetection() in detect_root.py::L148):     - /home/karna/anaconda3/envs/MG5/bin/root-config[0m
+[36mMA5-DEBUG (detect_root.AutoDetection() in detect_root.py::L148):     - /snap/bin/root-config[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L281): Extract more informations related to the package ...[0m
+[36mMA5-DEBUG (detect_root.ExtractInfo() in detect_root.py::L154): Trying to get library and header paths ...[0m
+[36mMA5-DEBUG (detect_root.ExtractInfo() in detect_root.py::L173): -> root-config found[0m
+[36mMA5-DEBUG (detect_root.ExtractInfo() in detect_root.py::L174): -> root version: 6.40.02[0m
+[36mMA5-DEBUG (detect_root.ExtractInfo() in detect_root.py::L175): -> root header  folder: /home/karna/anaconda3/envs/MG5/include[0m
+[36mMA5-DEBUG (detect_root.ExtractInfo() in detect_root.py::L176): -> root library folder: /home/karna/anaconda3/envs/MG5/lib[0m
+[36mMA5-DEBUG (detect_root.ExtractInfo() in detect_root.py::L182): Try to find /home/karna/anaconda3/envs/MG5/lib/libCore.so ...[0m
+[36mMA5-DEBUG (detect_root.ExtractInfo() in detect_root.py::L182): Try to find /home/karna/anaconda3/envs/MG5/include/TH1F.h ...[0m
+[36mMA5-DEBUG (detect_root.ExtractInfo() in detect_root.py::L203):   features:      ['asimage', 'asimage_tiff', 'builtin_civetweb', 'builtin_cling', 'builtin_openui5', 'check_connection', 'clad', 'curl', 'cxx20', 'dataframe', 'davix', 'fftw3', 'fitsio', 'gdml', 'geom', 'gviz', 'http', 'imt', 'mathmore', 'opengl', 'pyroot', 'pythia8', 'roofit', 'roofit_multiprocess', 'root7', 'runtime_cxxmodules', 'shared', 'soversion', 'spectrum', 'sqlite', 'ssl', 'thisroot_scripts', 'tmva', 'tmva-cpu', 'tmva-cudnn', 'tmva-pymva', 'tpython', 'vdt', 'webgui', 'x11', 'xml', 'xrootd'][0m
+[36mMA5-DEBUG (detect_root.ExtractInfo() in detect_root.py::L215):   C++ compiler:      x86_64-conda-linux-gnu-c++[0m
+[36mMA5-DEBUG (detect_manager.Execute() in detect_manager.py::L299): Saving informations ...[0m
+[0mMA5:      - Root                     [32m[OK][0m[0m
+[36mMA5-DEBUG (config_checker.checkDelphes() in config_checker.py::L333): Delphes[0m
+[36mMA5-DEBUG (config_checker.checkDelphes() in config_checker.py::L398): Look for Delphes in the folder /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools ...[0m
+[36mMA5-DEBUG (config_checker.checkDelphes() in config_checker.py::L428): -> not found[0m
+[0mMA5:      - Delphes                  [35m[DISABLED][0m[0m
+[36mMA5-DEBUG (config_checker.checkDelphesMA5tune() in config_checker.py::L534): Delphes-MA5tune[0m
+[36mMA5-DEBUG (config_checker.checkDelphesMA5tune() in config_checker.py::L539): User setting: veto on Delphes-MA5tune[0m
+[0mMA5:      - Delphes-MA5tune          [35m[DISABLED][0m[0m
+[0mMA5: Installing PAD for SFS[0m
+[0mMA5: [0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:                      Installing padforsfs                   [0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Detecting a previous installation ...[0m
+[36mMA5-DEBUG (install_pad.Detect() in install_pad.py::L71): The folder /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/padforsfs' is not found[0m
+[0mMA5:    => not found. OK[0m
+[0mMA5:    How many cores would you like to use for the compilation ? default = max = 4[0m
+[0mMA5:    => Number of cores used for the compilation = 4[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Creating a devoted folder ...[0m
+[36mMA5-DEBUG (install_pad.CreatePackageFolder() in install_pad.py::L108): Calling the expert mode for file cms_b2g_12_012[0m
+[36mMA5-DEBUG (install_pad.CreatePackageFolder() in install_pad.py::L109): BEGIN ExpertMode[0m
+[36mMA5-DEBUG (expert_mode.CreateDirectory() in expert_mode.py::L54): Debug mode: a directory name is specified.[0m
+[36mMA5-DEBUG (expert_mode.CreateDirectory() in expert_mode.py::L64): Full path of the working directory: /tmp/tmp8ah4xth0/tools/PADforsfs[0m
+[36mMA5-DEBUG (expert_mode.CreateDirectory() in expert_mode.py::L67): Check that the path is not forbidden...[0m
+[0mMA5:    Creating folder '/tmp/tmp8ah4xth0/tools/PADforsfs'...[0m
+[31mMA5-ERROR: Impossible to create the directory :[0m
+[31mMA5-ERROR:  /tmp/tmp8ah4xth0/tools/PADforsfs[0m
+[31mMA5-ERROR: job submission aborted.[0m
+[0mMA5:    Installation NOT complete.[0m
+[0mMA5:    Elapsed time = 0.00 second[0m
+[0mMA5:    => Status: [31m[FAILURE][0m[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5: [0m
+[31mMA5-ERROR: Impossible to install PAD For SFS.[0m
+[0mMA5: Checking the MadAnalysis 5 core library:[0m
+[36mMA5-DEBUG (library_builder.checkMA5() in library_builder.py::L46): -> looking for folder: /tools/SampleAnalyzer/Lib[0m
+[36mMA5-DEBUG (library_builder.checkMA5() in library_builder.py::L61): -> looking for file: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Lib/libprocess_for_ma5.so[0m
+[36mMA5-DEBUG (library_builder.checkMA5() in library_builder.py::L63): 	-> file /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Lib/libprocess_for_ma5.so not found.[0m
+[0mMA5:   => First use of MadAnalysis (or the library is missing).[0m
+[0mMA5: [0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:                 Building SampleAnalyzer libraries     [0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    How many cores for the compiling? default = max = 4[0m
+[0mMA5:    => Number of cores used for the compilation = 4[0m
+[0mMA5:    Writing the setup files ...[0m
+[0mMA5:    Writing all the Makefiles ...[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Component 1/11 - test program: SampleAnalyzer configuration[0m
+[0mMA5:      - Cleaning the project before building the test program ...[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L476): LogFile: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Configuration/mrproper.log[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L487): Makefile: Makefile[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L491): Command: make mrproper --file=Makefile[0m
+[0mMA5:      - Compiling the source files ...[0m
+[0mMA5:      - Linking the test program ...[0m
+[0mMA5:      - Checking that the test program is properly built ...[0m
+[0mMA5:      - Cleaning the project after building the test program ...[0m
+[0mMA5:      - Running the test program ...[0m
+[36mMA5-DEBUG (library_writer.Run() in library_writer.py::L509): Command: ./PortabilityCheckup[0m
+[36mMA5-DEBUG (library_writer.Run() in library_writer.py::L513): LogFile: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Bin/PortabilityCheckup.log[0m
+[0mMA5:      - Checking the program output...[0m
+[36mMA5-DEBUG (library_writer.CheckRunConfiguration() in library_writer.py::L574): LogFile: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Bin/PortabilityCheckup.log[0m
+[36mMA5-DEBUG (library_writer.CheckRunConfiguration() in library_writer.py::L593): Analyzing output file: OK -> Begin Stamp found[0m
+[36mMA5-DEBUG (library_writer.CheckRunConfiguration() in library_writer.py::L599): Analyzing output file: OK -> Successful test found[0m
+[36mMA5-DEBUG (library_writer.CheckRunConfiguration() in library_writer.py::L596): Analyzing output file: OK -> Begin Stamp found[0m
+[0mMA5:       => Status: [32m[OK][0m[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Component 2/11 - library: SampleAnalyzer commons[0m
+[0mMA5:      - Cleaning the project before building the library ...[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L476): LogFile: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Commons/mrproper.log[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L487): Makefile: Makefile[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L491): Command: make mrproper --file=Makefile[0m
+[0mMA5:      - Compiling the source files ...[0m
+[0mMA5:      - Linking the library ...[0m
+[0mMA5:      - Checking that the library is properly built ...[0m
+[0mMA5:      - Cleaning the project after building the library ...[0m
+[0mMA5:       => Status: [32m[OK][0m[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Component 3/11 - test program: SampleAnalyzer commons[0m
+[0mMA5:      - Cleaning the project before building the test program ...[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L476): LogFile: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Test//mrproper_commons.log[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L487): Makefile: Makefile_commons[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L491): Command: make mrproper --file=Makefile_commons[0m
+[0mMA5:      - Compiling the source files ...[0m
+[0mMA5:      - Linking the test program ...[0m
+[0mMA5:      - Checking that the test program is properly built ...[0m
+[0mMA5:      - Cleaning the project after building the test program ...[0m
+[0mMA5:      - Running the test program ...[0m
+[36mMA5-DEBUG (library_writer.Run() in library_writer.py::L509): Command: ./TestCommons[0m
+[36mMA5-DEBUG (library_writer.Run() in library_writer.py::L513): LogFile: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Bin/TestCommons.log[0m
+[0mMA5:      - Checking the program output...[0m
+[36mMA5-DEBUG (library_writer.CheckRun() in library_writer.py::L530): LogFile: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Bin/TestCommons.log[0m
+[36mMA5-DEBUG (library_writer.CheckRun() in library_writer.py::L548): Analyzing output file: OK -> Begin Stamp found[0m
+[36mMA5-DEBUG (library_writer.CheckRun() in library_writer.py::L550): Analyzing output file: OK -> End Stamp[0m
+[0mMA5:       => Status: [32m[OK][0m[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Component 4/11 - library: interface to zlib[0m
+[0mMA5:      - Cleaning the project before building the library ...[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L476): LogFile: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Interfaces/mrproper_zlib.log[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L487): Makefile: Makefile_zlib[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L491): Command: make mrproper --file=Makefile_zlib[0m
+[0mMA5:      - Compiling the source files ...[0m
+[0mMA5:      - Linking the library ...[0m
+[0mMA5:      - Checking that the library is properly built ...[0m
+[0mMA5:      - Cleaning the project after building the library ...[0m
+[0mMA5:       => Status: [32m[OK][0m[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Component 5/11 - test program: interface to zlib[0m
+[0mMA5:      - Cleaning the project before building the test program ...[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L476): LogFile: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Test//mrproper_zlib.log[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L487): Makefile: Makefile_zlib[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L491): Command: make mrproper --file=Makefile_zlib[0m
+[0mMA5:      - Compiling the source files ...[0m
+[0mMA5:      - Linking the test program ...[0m
+[0mMA5:      - Checking that the test program is properly built ...[0m
+[0mMA5:      - Cleaning the project after building the test program ...[0m
+[0mMA5:      - Running the test program ...[0m
+[36mMA5-DEBUG (library_writer.Run() in library_writer.py::L509): Command: ./TestZlib[0m
+[36mMA5-DEBUG (library_writer.Run() in library_writer.py::L513): LogFile: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Bin/TestZlib.log[0m
+[0mMA5:      - Checking the program output...[0m
+[36mMA5-DEBUG (library_writer.CheckRun() in library_writer.py::L530): LogFile: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Bin/TestZlib.log[0m
+[36mMA5-DEBUG (library_writer.CheckRun() in library_writer.py::L548): Analyzing output file: OK -> Begin Stamp found[0m
+[36mMA5-DEBUG (library_writer.CheckRun() in library_writer.py::L550): Analyzing output file: OK -> End Stamp[0m
+[0mMA5:       => Status: [32m[OK][0m[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Component 6/11 - library: interface to FastJet[0m
+[0mMA5:      - Cleaning the project before building the library ...[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L476): LogFile: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Interfaces/mrproper_fastjet.log[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L487): Makefile: Makefile_fastjet[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L491): Command: make mrproper --file=Makefile_fastjet[0m
+[0mMA5:      - Compiling the source files ...[0m
+[0mMA5:      - Linking the library ...[0m
+[0mMA5:      - Checking that the library is properly built ...[0m
+[0mMA5:      - Cleaning the project after building the library ...[0m
+[0mMA5:       => Status: [32m[OK][0m[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Component 7/11 - test program: interface to Fastjet[0m
+[0mMA5:      - Cleaning the project before building the test program ...[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L476): LogFile: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Test//mrproper_fastjet.log[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L487): Makefile: Makefile_fastjet[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L491): Command: make mrproper --file=Makefile_fastjet[0m
+[0mMA5:      - Compiling the source files ...[0m
+[0mMA5:      - Linking the test program ...[0m
+[0mMA5:      - Checking that the test program is properly built ...[0m
+[0mMA5:      - Cleaning the project after building the test program ...[0m
+[0mMA5:      - Running the test program ...[0m
+[36mMA5-DEBUG (library_writer.Run() in library_writer.py::L509): Command: ./TestFastjet[0m
+[36mMA5-DEBUG (library_writer.Run() in library_writer.py::L513): LogFile: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Bin/TestFastjet.log[0m
+[0mMA5:      - Checking the program output...[0m
+[36mMA5-DEBUG (library_writer.CheckRun() in library_writer.py::L530): LogFile: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Bin/TestFastjet.log[0m
+[36mMA5-DEBUG (library_writer.CheckRun() in library_writer.py::L548): Analyzing output file: OK -> Begin Stamp found[0m
+[36mMA5-DEBUG (library_writer.CheckRun() in library_writer.py::L550): Analyzing output file: OK -> End Stamp[0m
+[0mMA5:       => Status: [32m[OK][0m[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Component 8/11 - library: interface to Root[0m
+[0mMA5:      - Cleaning the project before building the library ...[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L476): LogFile: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Interfaces/mrproper_root.log[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L487): Makefile: Makefile_root[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L491): Command: make mrproper --file=Makefile_root[0m
+[0mMA5:      - Compiling the source files ...[0m
+[0mMA5:      - Linking the library ...[0m
+[0mMA5:      - Checking that the library is properly built ...[0m
+[0mMA5:      - Cleaning the project after building the library ...[0m
+[0mMA5:       => Status: [32m[OK][0m[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Component 9/11 - test program: interface to Root[0m
+[0mMA5:      - Cleaning the project before building the test program ...[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L476): LogFile: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Test//mrproper_root.log[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L487): Makefile: Makefile_root[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L491): Command: make mrproper --file=Makefile_root[0m
+[0mMA5:      - Compiling the source files ...[0m
+[0mMA5:      - Linking the test program ...[0m
+[0mMA5:      - Checking that the test program is properly built ...[0m
+[0mMA5:      - Cleaning the project after building the test program ...[0m
+[0mMA5:      - Running the test program ...[0m
+[36mMA5-DEBUG (library_writer.Run() in library_writer.py::L509): Command: ./TestRoot[0m
+[36mMA5-DEBUG (library_writer.Run() in library_writer.py::L513): LogFile: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Bin/TestRoot.log[0m
+[0mMA5:      - Checking the program output...[0m
+[36mMA5-DEBUG (library_writer.CheckRun() in library_writer.py::L530): LogFile: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Bin/TestRoot.log[0m
+[36mMA5-DEBUG (library_writer.CheckRun() in library_writer.py::L548): Analyzing output file: OK -> Begin Stamp found[0m
+[36mMA5-DEBUG (library_writer.CheckRun() in library_writer.py::L550): Analyzing output file: OK -> End Stamp[0m
+[0mMA5:       => Status: [32m[OK][0m[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Component 10/11 - library: SampleAnalyzer core[0m
+[0mMA5:      - Cleaning the project before building the library ...[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L476): LogFile: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Process/mrproper.log[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L487): Makefile: Makefile[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L491): Command: make mrproper --file=Makefile[0m
+[0mMA5:      - Compiling the source files ...[0m
+[0mMA5:      - Linking the library ...[0m
+[0mMA5:      - Checking that the library is properly built ...[0m
+[0mMA5:      - Cleaning the project after building the library ...[0m
+[0mMA5:       => Status: [32m[OK][0m[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Component 11/11 - test program: SampleAnalyzer core[0m
+[0mMA5:      - Cleaning the project before building the test program ...[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L476): LogFile: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Test//mrproper_process.log[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L487): Makefile: Makefile_process[0m
+[36mMA5-DEBUG (library_writer.MrProper() in library_writer.py::L491): Command: make mrproper --file=Makefile_process[0m
+[0mMA5:      - Compiling the source files ...[0m
+[0mMA5:      - Linking the test program ...[0m
+[0mMA5:      - Checking that the test program is properly built ...[0m
+[0mMA5:      - Cleaning the project after building the test program ...[0m
+[0mMA5:      - Running the test program ...[0m
+[36mMA5-DEBUG (library_writer.Run() in library_writer.py::L509): Command: ./TestSampleAnalyzer /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Test/Process/dummy_list.txt[0m
+[36mMA5-DEBUG (library_writer.Run() in library_writer.py::L513): LogFile: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Bin/TestSampleAnalyzer.log[0m
+[0mMA5:      - Checking the program output...[0m
+[36mMA5-DEBUG (library_writer.CheckRun() in library_writer.py::L530): LogFile: /home/karna/Descargas/madgraph/MG5_aMC_v2_9_27/HEPTools/madanalysis5/madanalysis5/tools/SampleAnalyzer/Bin/TestSampleAnalyzer.log[0m
+[36mMA5-DEBUG (library_writer.CheckRun() in library_writer.py::L548): Analyzing output file: OK -> Begin Stamp found[0m
+[36mMA5-DEBUG (library_writer.CheckRun() in library_writer.py::L550): Analyzing output file: OK -> End Stamp[0m
+[0mMA5:       => Status: [32m[OK][0m[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Elapsed time = 1 minute 44 seconds[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5: [0m
+>> Successful installation of MadAnalysis5.
+INSTALLATION STATUS: SUCCESS
